@@ -157,8 +157,8 @@ html {
 //     grid-template-columns: repeat(4, 1fr);
 // }
 
-// TYPOGRAPHY
 
+// Use for each section
 @mixin section-padding{
     padding: 60px 24px;
     @include md{
@@ -169,6 +169,7 @@ html {
     }
 }
 
+// Use for list items
 @mixin li-padding{
     padding: 40px 0px;
     @include md{
@@ -179,7 +180,7 @@ html {
     }
 }
 
-
+// TYPOGRAPHY
 @mixin h1-text{
     font-family: ohno-blazeface, sans-serif;
     font-size: rem-calc(64);
