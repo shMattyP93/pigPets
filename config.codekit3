@@ -51,6 +51,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/adopt/bkg-wave.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/bkg-wave.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/circles.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -480,7 +490,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt.scss": {
+	"/dev/scss/sections/_adopt-expect.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -488,7 +498,59 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt.css",
+		"oAP": "/dev/scss/sections/_adopt-expect.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_adopt-hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_adopt-oinking.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-oinking.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_adopt-pig-bio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-pig-bio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_adopt-testimonials.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-testimonials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -1,0 +1,33 @@
+#expect{
+    @include section-padding;
+
+    div:nth-child(1){
+        background-image: url('../img/adopt/heart-line.svg');
+        background-size: contain;
+        background-position: left top;
+        background-repeat: no-repeat;
+        aside{
+            position: relative;
+            background-image: url('../img/adopt/pig1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 320px;
+            background-position: right center;
+        }
+    }
+    div:nth-child(2){
+        h2{
+            span{
+                color: $accent;
+            }
+        }
+    }
+    div:nth-child(3){
+        li{
+            @include li-padding;
+            h3{
+                color: $navy;
+            }
+        }
+    }
+}

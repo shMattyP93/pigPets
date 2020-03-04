@@ -1,0 +1,23 @@
+#adopt-hero{
+    @include section-padding;
+    display: grid;
+    grid-template-areas:
+            "hero-content ."
+            "hero-img hero-img";
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto 400px;
+    div:nth-child(1){
+        grid-area: hero-content;
+        h2{
+            span{
+                color: $hot;
+            }
+        }
+    }
+    div:nth-child(2){
+        grid-area: hero-img;
+        background-image: url('../img/adopt/hero.svg');
+        background-size: fit;
+        background-repeat: no-repeat;
+    }
+}

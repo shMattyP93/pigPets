@@ -1,0 +1,34 @@
+#testimonials{
+    @include section-padding;
+    h2{
+        span{
+            color: $cool;
+        }
+    }
+    ul{
+        li{
+            position: relative;
+            background-color: $light;
+            border-radius: 8px;
+            padding: 24px;
+            margin: 0px 0px 48px 32px;
+            h1{
+                color: $cool;
+                font-size: rem-calc(80);
+                position: absolute;
+                left: -20px;
+                top: -20px;
+            }
+            p{
+                padding-bottom: 24px;
+                span{
+                    font-weight: 700;
+                }
+            }
+            h3{
+                font-size: rem-calc(16);
+                color: $navy;
+            }
+        }
+    }
+}

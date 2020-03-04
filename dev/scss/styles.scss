@@ -19,7 +19,12 @@
 @import "layout/_footer";
 
 // Sections Styles
+@import "sections/_adopt-expect";
+@import "sections/_adopt-hero";
+@import "sections/_adopt-oinking";
+@import "sections/_adopt-pig-bio";
+@import "sections/_adopt-testimonials";
+
 @import "sections/_home";
 @import "sections/_benefits";
 @import "sections/_care";
-@import "sections/_adopt";
