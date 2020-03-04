@@ -1,3 +1,24 @@
 /* =============
     Navigation
 ============= */
+nav{
+  width: 50%;
+  display: none;
+  @include xl{
+    display: block;
+    align-self: center;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    li{
+      a{
+        color: $black;
+      }
+      .active{
+        font-weight: 700;
+        border-bottom: 3px solid $black;
+      }
+    }
+  }
+}

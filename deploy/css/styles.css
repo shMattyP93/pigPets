@@ -321,6 +321,12 @@ ul {
   ul li {
     list-style: none; }
 
+body {
+  font-family: mr-eaves-xl-modern, sans-serif; }
+
+a {
+  text-decoration: none; }
+
 /* =============
     Typography
 ============= */
@@ -349,9 +355,31 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  width: 50%;
+  display: none; }
+  @media (min-width: 1200px) {
+    nav {
+      display: block;
+      align-self: center; } }
+  nav ul {
+    display: flex;
+    justify-content: space-between; }
+    nav ul li a {
+      color: #000000; }
+    nav ul li .active {
+      font-weight: 700;
+      border-bottom: 3px solid #000000; }
+
 /* =============
     Header
 ============= */
+header {
+  background-color: #FFFFFF;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between; }
+
 /* =============
     Footer
 ============= */
