@@ -156,3 +156,36 @@ html {
 // @include xl{
 //     grid-template-columns: repeat(4, 1fr);
 // }
+
+// TYPOGRAPHY
+
+@mixin section-padding{
+    padding: 56px 24px;
+    @include md{
+        padding: 80px 40px;
+    }
+}
+
+@mixin h1-text{
+    font-family: OhnoBlazeface-24Point;
+    font-size: 64px;
+    line-height: 59px;
+    @include md{
+        font-size: 72px;
+        line-height: 64px;
+    }
+    @include lg{
+        font-family: OhnoBlazeface-24Point;
+        font-size: 88px;
+        line-height: 70px;
+    }
+}
+
+@mixin p-text{
+    font-size: rem-calc(16);
+    line-height: 24px;
+    @include md{
+        font-size: rem-calc(20);
+        line-height: 28px;
+    }
+}
