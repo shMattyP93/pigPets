@@ -2,7 +2,7 @@
     @include section-padding;
     h2{
         span{
-            color: $cool;
+            color: $hot;
         }
     }
     ul{
@@ -13,7 +13,7 @@
             padding: 24px;
             margin: 0px 0px 48px 32px;
             h1{
-                color: $cool;
+                color: $hot;
                 font-size: rem-calc(80);
                 position: absolute;
                 left: -20px;

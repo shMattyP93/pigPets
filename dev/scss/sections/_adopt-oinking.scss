@@ -13,7 +13,7 @@
         grid-area: oink-head;
         h2{
             span{
-                color: $deep;
+                color: $cool;
             }
         }
     }
@@ -35,6 +35,9 @@
         grid-area: oink-bullets;
         ul{
             li{
+                h2{
+                    color: $cool;
+                }
                 background-repeat: no-repeat;
                 background-size: fit;
                 padding: 40px 0px 40px 40px;

@@ -490,15 +490,18 @@ header {
   #expect div:nth-child(2) h2 span {
     color: #FBB938; }
   #expect div:nth-child(3) li {
-    padding: 40px 0px; }
+    margin: 40px 0px;
+    padding-left: 16px; }
     @media (min-width: 768px) {
       #expect div:nth-child(3) li {
-        padding: 60px 0px; } }
+        margin: 60px 0px; } }
     @media (min-width: 992px) {
       #expect div:nth-child(3) li {
-        padding: 80px 0px; } }
+        margin: 80px 0px; } }
     #expect div:nth-child(3) li h3 {
       color: #18186B; }
+  #expect div:nth-child(3) li:nth-child(-n+4) {
+    border-left: 8px solid #F0ECD9; }
 
 #adopt-hero {
   padding: 60px 24px;
@@ -515,7 +518,7 @@ header {
   #adopt-hero div:nth-child(1) {
     grid-area: hero-content; }
     #adopt-hero div:nth-child(1) h2 span {
-      color: #E5518D; }
+      color: #E26D52; }
   #adopt-hero div:nth-child(2) {
     grid-area: hero-img;
     background-image: url("../img/adopt/hero.svg");
@@ -537,7 +540,7 @@ header {
   #adopt-oinking div:nth-child(1) {
     grid-area: oink-head; }
     #adopt-oinking div:nth-child(1) h2 span {
-      color: #A92FAC; }
+      color: #7297FF; }
   #adopt-oinking div:nth-child(2) {
     margin: 0 auto;
     grid-area: oink-cta; }
@@ -553,6 +556,8 @@ header {
       background-repeat: no-repeat;
       background-size: fit;
       padding: 40px 0px 40px 40px; }
+      #adopt-oinking div:nth-child(3) ul li h2 {
+        color: #7297FF; }
     #adopt-oinking div:nth-child(3) ul li:nth-child(1) {
       background-image: url("../img/adopt/size.svg"); }
     #adopt-oinking div:nth-child(3) ul li:nth-child(2) {
@@ -609,7 +614,7 @@ header {
     #testimonials {
       padding: 100px 40px; } }
   #testimonials h2 span {
-    color: #7297FF; }
+    color: #E5518D; }
   #testimonials ul li {
     position: relative;
     background-color: #F0ECD9;
@@ -617,7 +622,7 @@ header {
     padding: 24px;
     margin: 0px 0px 48px 32px; }
     #testimonials ul li h1 {
-      color: #7297FF;
+      color: #E5518D;
       font-size: 5rem;
       position: absolute;
       left: -20px;

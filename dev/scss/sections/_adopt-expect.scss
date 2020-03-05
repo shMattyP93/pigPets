@@ -25,9 +25,13 @@
     div:nth-child(3){
         li{
             @include li-padding;
+            padding-left: 16px;
             h3{
                 color: $navy;
             }
+        }
+        li:nth-child(-n+4){
+            border-left: 8px solid $light;
         }
     }
 }
