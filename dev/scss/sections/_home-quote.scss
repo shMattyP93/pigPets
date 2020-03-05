@@ -1,0 +1,23 @@
+#home-quote{
+    margin: 100px 0px;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../img/home/bkg2.svg');
+        height: 400px;
+        background-repeat: no-repeat;
+        @include section-padding;
+        article{
+            h1{
+                padding-bottom: 8px;
+                span{
+                    color: $hot;
+                }
+                img{
+                    padding-right: 8px;
+                }
+            }
+        }
+    }
+}

@@ -800,3 +800,191 @@ header {
       grid-area: test2; }
     #adopt-testimonials ul li:nth-child(3) {
       grid-area: test3; }
+
+#home-adoption {
+  background-image: url("../img/home/pig-footer.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover; }
+  #home-adoption article {
+    padding: 80px 80px; }
+    #home-adoption article h1 {
+      color: #ffffff; }
+
+#home-chill > div:nth-child(1) {
+  display: grid;
+  grid-template-areas: "home-chill-img" "home-chill-text";
+  grid-template-rows: repeat(2, auto); }
+  @media (min-width: 768px) {
+    #home-chill > div:nth-child(1) {
+      grid-template-areas: "home-chill-img home-chill-img" ". home-chill-text";
+      grid-template-columns: 40% 60%;
+      grid-template-rows: repeat(2, 400px); } }
+  #home-chill > div:nth-child(1) #home-chill-text {
+    grid-area: home-chill-text;
+    padding: 60px 24px;
+    display: flex;
+    padding-bottom: 0px; }
+    @media (min-width: 768px) {
+      #home-chill > div:nth-child(1) #home-chill-text {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-chill > div:nth-child(1) #home-chill-text {
+        padding: 160px 40px; } }
+    #home-chill > div:nth-child(1) #home-chill-text h2 span {
+      color: #7297FF; }
+  #home-chill > div:nth-child(1) #home-chill-img {
+    grid-area: home-chill-img;
+    background-image: url("../img/home/pig-pink.png");
+    background-position: -300px 120px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px; }
+    @media (min-width: 768px) {
+      #home-chill > div:nth-child(1) #home-chill-img {
+        background-size: cover;
+        background-position: -300px 0px;
+        height: 400px;
+        margin-top: 160px; } }
+  #home-chill > div:nth-child(1) #home-chill-divider {
+    height: 0px; }
+
+#home-emotion {
+  display: grid;
+  grid-template-areas: "home-emotion-content" "home-emotion-img"; }
+  #home-emotion div #home-emotion-text {
+    grid-area: home-emotion-text;
+    padding: 60px 24px;
+    padding-bottom: 0px; }
+    @media (min-width: 768px) {
+      #home-emotion div #home-emotion-text {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-emotion div #home-emotion-text {
+        padding: 160px 40px; } }
+    #home-emotion div #home-emotion-text h2 span {
+      color: #E5518D; }
+  #home-emotion div #home-emotion-img {
+    grid-area: home-emotion-img;
+    background-image: url("../img/home/heart-group.svg");
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+#home-hero {
+  background-image: url("../img/home/hero-bkg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #home-hero div {
+    display: grid;
+    grid-template-areas: "hero-img" "hero-content"; }
+    @media (min-width: 768px) {
+      #home-hero div {
+        grid-template-areas: "hero-content hero-img";
+        grid-template-columns: 55% 45%; } }
+    #home-hero div article {
+      grid-area: hero-content;
+      padding: 60px 24px; }
+      @media (min-width: 768px) {
+        #home-hero div article {
+          padding: 80px 40px; } }
+      @media (min-width: 992px) {
+        #home-hero div article {
+          padding: 160px 40px; } }
+      #home-hero div article h1 span {
+        color: #E5518D; }
+    #home-hero div div {
+      grid-area: hero-img;
+      background-image: url("../img/home/hero-pig.png");
+      background-position: -70px bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 500px; }
+      @media (min-width: 768px) {
+        #home-hero div div {
+          background-position: left bottom;
+          padding-top: 80px; } }
+
+#home-lovestory {
+  padding: 60px 24px; }
+  @media (min-width: 768px) {
+    #home-lovestory {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #home-lovestory {
+      padding: 160px 40px; } }
+  #home-lovestory div h2 span {
+    color: #FBB938; }
+  #home-lovestory div #home-lovestory-text {
+    padding-bottom: 0px; }
+  #home-lovestory div #home-lovestory-img {
+    background-image: url("../img/home/pig-lovestory.jpg");
+    background-position: center center;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: 80%; }
+
+#home-quote {
+  margin: 100px 0px; }
+  #home-quote div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/home/bkg2.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    padding: 60px 24px; }
+    @media (min-width: 768px) {
+      #home-quote div {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-quote div {
+        padding: 160px 40px; } }
+    #home-quote div article h1 {
+      padding-bottom: 8px; }
+      #home-quote div article h1 span {
+        color: #E5518D; }
+      #home-quote div article h1 img {
+        padding-right: 8px; }
+
+#home-smart {
+  background-image: url("../img/home/bkg-blob1.svg");
+  background-position: 100px center;
+  background-repeat: no-repeat;
+  background-size: 120%; }
+  @media (min-width: 768px) {
+    #home-smart {
+      background-position: center center;
+      background-size: 80%; } }
+  #home-smart div #home-smart-text {
+    position: relative;
+    z-index: 1;
+    padding: 60px 24px;
+    padding-bottom: 0px; }
+    @media (min-width: 768px) {
+      #home-smart div #home-smart-text {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-smart div #home-smart-text {
+        padding: 160px 40px; } }
+    #home-smart div #home-smart-text h2 span {
+      color: #FBB938; }
+    @media (min-width: 768px) {
+      #home-smart div #home-smart-text {
+        width: 50%; } }
+  #home-smart div #home-smart-img {
+    position: relative;
+    z-index: 100;
+    background-image: url("../img/home/pig-smart.svg");
+    background-position: 65px 0px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 160%; }
+    @media (min-width: 768px) {
+      #home-smart div #home-smart-img {
+        height: 600px;
+        background-position: 100px -300px;
+        overflow: visible; } }

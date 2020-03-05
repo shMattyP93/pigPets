@@ -1,0 +1,47 @@
+#home-chill{
+
+    >div:nth-child(1){
+        display: grid;
+        grid-template-areas:
+                "home-chill-img"
+                "home-chill-text";
+        grid-template-rows: repeat(2, auto);
+        @include md{
+            grid-template-areas:
+                    "home-chill-img home-chill-img"
+                    ". home-chill-text";
+            grid-template-columns: 40% 60%;
+            grid-template-rows: repeat(2, 400px);
+        }
+
+        #home-chill-text{
+            grid-area: home-chill-text;
+            @include section-padding;
+            display: flex;
+            padding-bottom: 0px;
+            h2{
+                span{
+                    color: $cool;
+                }
+            }
+        }
+        #home-chill-img{
+            grid-area: home-chill-img;
+            background-image: url('../img/home/pig-pink.png');
+            background-position: -300px 120px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 600px;
+            @include md{
+                background-size: cover;
+                background-position: -300px 0px;
+                height: 400px;
+                margin-top: 160px;
+            }
+        }
+
+        #home-chill-divider{
+            height: 0px;
+        }
+    }
+}
