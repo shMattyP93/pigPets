@@ -1,8 +1,8 @@
 #adopt-oinking{
     background-image: url('../img/adopt/bkg1.svg');
-    background-size: cover;
     background-position: bottom right;
     background-repeat: no-repeat;
+    background-size: cover;
     @include section-padding;
     display: grid;
     grid-template-areas:
@@ -16,12 +16,12 @@
         grid-gap: 24px;
     }
     @include lg{
+        grid-gap: 80px;
         grid-template-areas:
                 ". oink-bullets oink-head ."
                 ". oink-bullets oink-cta ."
                 ". oink-bullets oink-img .";
         grid-template-columns: auto 300px 500px auto;
-        grid-gap: 80px;
     }
 
 
@@ -34,21 +34,21 @@
         }
     }
     div:nth-child(2){
-        margin: 0 auto;
         grid-area: oink-cta;
+        margin: 0 auto;
         button{
 
         }
     }
     div:nth-child(3){
-        // two pigs halftone
-        grid-area: oink-img;
-        padding: 0px;
         background-image: url('../img/adopt/pig3.png');
-        background-size: contain;
-        height: 240px;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: contain;
+        // two pigs halftone
+        grid-area: oink-img;
+        height: 240px;
+        padding: 0px;
     }
     div:nth-child(4){
         grid-area: oink-bullets;
@@ -56,37 +56,37 @@
         ul{
             @include md{
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 24px;
                 grid-template-areas:
                         "oink1 oink2 oink3";
-                grid-gap: 24px;
+                grid-template-columns: repeat(3, 1fr);
             }
             @include lg{
                 display: grid;
-                grid-template-columns: repeat(1, 1fr);
                 grid-template-areas:
                         "oink1" "oink2" "oink3";
+                grid-template-columns: repeat(1, 1fr);
             }
             li{
+                background-repeat: no-repeat;
+                background-size: fit;
+                padding: 40px 0px 40px 40px;
                 h2{
                     color: $navy;
                     padding-bottom: 16px;
                 }
-                background-repeat: no-repeat;
-                background-size: fit;
-                padding: 40px 0px 40px 40px;
             }
             li:nth-child(1){
-                grid-area: oink1;
                 background-image: url('../img/adopt/size.svg');
+                grid-area: oink1;
             }
             li:nth-child(2){
-                grid-area: oink2;
                 background-image: url('../img/adopt/vaccines.svg');
+                grid-area: oink2;
             }
             li:nth-child(3){
-                grid-area: oink3;
                 background-image: url('../img/adopt/cost.svg');
+                grid-area: oink3;
             }
         }
 

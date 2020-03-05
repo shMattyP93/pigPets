@@ -467,70 +467,77 @@ header {
 /* =============
     Footer
 ============= */
-#expect {
+#adopt-expect {
+  background-image: url("../img/adopt/bkg1.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px 24px;
+  background-size: 40%;
   display: grid;
   grid-template-areas: "expect-img" "expect-h2" "expect-content";
   grid-template-columns: 100%;
   grid-template-rows: auto; }
   @media (min-width: 768px) {
-    #expect {
+    #adopt-expect {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
-    #expect {
+    #adopt-expect {
       padding: 160px 40px; } }
   @media (min-width: 768px) {
-    #expect {
+    #adopt-expect {
+      background-size: 90%;
       grid-template-areas: "expect-h2 ." "expect-content expect-img";
       grid-template-columns: 40% 60%; } }
   @media (min-width: 992px) {
-    #expect {
+    #adopt-expect {
+      background-size: 90%;
+      grid-gap: 0px 80px;
       grid-template-areas: ". expect-img expect-content ." ". expect-h2 expect-content .";
-      grid-template-columns: auto 400px 400px auto;
-      grid-gap: 0px 80px; } }
-  #expect div:nth-child(1) {
-    grid-area: expect-img;
+      grid-template-columns: auto 400px 400px auto; } }
+  #adopt-expect div:nth-child(1) {
     background-image: url("../img/adopt/heart-line.svg");
-    background-size: contain;
     background-position: left top;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: expect-img; }
     @media (min-width: 992px) {
-      #expect div:nth-child(1) {
+      #adopt-expect div:nth-child(1) {
         background-position: -120px -290px;
         background-size: 130%; } }
-    #expect div:nth-child(1) aside {
-      position: relative;
+    #adopt-expect div:nth-child(1) aside {
       background-image: url("../img/adopt/pig1.png");
-      background-size: contain;
+      background-position: right center;
       background-repeat: no-repeat;
+      background-size: contain;
       height: 320px;
-      background-position: right center; }
+      position: relative; }
       @media (min-width: 768px) {
-        #expect div:nth-child(1) aside {
-          height: 480px;
-          background-position: bottom right; } }
-  #expect div:nth-child(2) {
+        #adopt-expect div:nth-child(1) aside {
+          background-position: bottom right;
+          height: 480px; } }
+  #adopt-expect div:nth-child(2) {
     grid-area: expect-h2; }
     @media (min-width: 992px) {
-      #expect div:nth-child(2) h2 {
+      #adopt-expect div:nth-child(2) h2 {
         position: relative;
         top: -90px; } }
-    #expect div:nth-child(2) h2 span {
+    #adopt-expect div:nth-child(2) h2 span {
       color: #FBB938; }
-  #expect div:nth-child(3) {
+  #adopt-expect div:nth-child(3) {
     grid-area: expect-content; }
-    #expect div:nth-child(3) li {
+    #adopt-expect div:nth-child(3) li {
       margin: 40px 0px;
       padding-left: 16px; }
       @media (min-width: 768px) {
-        #expect div:nth-child(3) li {
+        #adopt-expect div:nth-child(3) li {
           margin: 60px 0px; } }
       @media (min-width: 992px) {
-        #expect div:nth-child(3) li {
+        #adopt-expect div:nth-child(3) li {
           margin: 80px 0px; } }
-      #expect div:nth-child(3) li h3 {
+      #adopt-expect div:nth-child(3) li h3 {
         color: #18186B; }
-    #expect div:nth-child(3) li:nth-child(-n+4) {
+    #adopt-expect div:nth-child(3) li:nth-child(-n+4) {
       border-left: 8px solid #F0ECD9; }
 
 #adopt-hero {
@@ -546,41 +553,41 @@ header {
       padding: 160px 40px; } }
   @media (min-width: 768px) {
     #adopt-hero {
+      grid-gap: 24px;
       grid-template-areas: "hero-content hero-img";
       grid-template-columns: 40% 60%;
-      grid-template-rows: 600px;
-      grid-gap: 24px; } }
+      grid-template-rows: 600px; } }
   @media (min-width: 992px) {
     #adopt-hero {
       background-image: url("../img/adopt/line.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
       background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
       grid-template-areas: ". hero-content hero-img .";
       grid-template-columns: auto 320px 600px auto; } }
   #adopt-hero div:nth-child(1) {
     grid-area: hero-content; }
     @media (min-width: 768px) {
       #adopt-hero div:nth-child(1) {
-        justify-content: center;
+        align-items: center;
         display: flex;
-        align-items: center; } }
+        justify-content: center; } }
     #adopt-hero div:nth-child(1) h2 span {
       color: #FBB938; }
   #adopt-hero div:nth-child(2) {
-    grid-area: hero-img;
     background-image: url("../img/adopt/hero.svg");
+    background-repeat: no-repeat;
     background-size: fit;
-    background-repeat: no-repeat; }
+    grid-area: hero-img; }
     @media (min-width: 992px) {
       #adopt-hero div:nth-child(2) {
         background-size: cover; } }
 
 #adopt-oinking {
   background-image: url("../img/adopt/bkg1.svg");
-  background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px 24px;
   display: grid;
   grid-template-areas: "oink-head" "oink-bullets" "oink-cta" "oink-img";
@@ -597,37 +604,37 @@ header {
       grid-gap: 24px; } }
   @media (min-width: 992px) {
     #adopt-oinking {
+      grid-gap: 80px;
       grid-template-areas: ". oink-bullets oink-head ." ". oink-bullets oink-cta ." ". oink-bullets oink-img .";
-      grid-template-columns: auto 300px 500px auto;
-      grid-gap: 80px; } }
+      grid-template-columns: auto 300px 500px auto; } }
   #adopt-oinking div:nth-child(1) {
     grid-area: oink-head; }
     #adopt-oinking div:nth-child(1) h2 span {
       color: #A92FAC; }
   #adopt-oinking div:nth-child(2) {
-    margin: 0 auto;
-    grid-area: oink-cta; }
+    grid-area: oink-cta;
+    margin: 0 auto; }
   #adopt-oinking div:nth-child(3) {
-    grid-area: oink-img;
-    padding: 0px;
     background-image: url("../img/adopt/pig3.png");
-    background-size: contain;
-    height: 240px;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: oink-img;
+    height: 240px;
+    padding: 0px; }
   #adopt-oinking div:nth-child(4) {
     grid-area: oink-bullets; }
     @media (min-width: 768px) {
       #adopt-oinking div:nth-child(4) ul {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 24px;
         grid-template-areas: "oink1 oink2 oink3";
-        grid-gap: 24px; } }
+        grid-template-columns: repeat(3, 1fr); } }
     @media (min-width: 992px) {
       #adopt-oinking div:nth-child(4) ul {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: "oink1" "oink2" "oink3"; } }
+        grid-template-areas: "oink1" "oink2" "oink3";
+        grid-template-columns: repeat(1, 1fr); } }
     #adopt-oinking div:nth-child(4) ul li {
       background-repeat: no-repeat;
       background-size: fit;
@@ -636,16 +643,16 @@ header {
         color: #18186B;
         padding-bottom: 16px; }
     #adopt-oinking div:nth-child(4) ul li:nth-child(1) {
-      grid-area: oink1;
-      background-image: url("../img/adopt/size.svg"); }
+      background-image: url("../img/adopt/size.svg");
+      grid-area: oink1; }
     #adopt-oinking div:nth-child(4) ul li:nth-child(2) {
-      grid-area: oink2;
-      background-image: url("../img/adopt/vaccines.svg"); }
+      background-image: url("../img/adopt/vaccines.svg");
+      grid-area: oink2; }
     #adopt-oinking div:nth-child(4) ul li:nth-child(3) {
-      grid-area: oink3;
-      background-image: url("../img/adopt/cost.svg"); }
+      background-image: url("../img/adopt/cost.svg");
+      grid-area: oink3; }
 
-#pig-bio {
+#adopt-pig-bio {
   background-image: url("../img/adopt/bkg-wave.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -656,38 +663,39 @@ header {
   grid-template-columns: 100%;
   grid-template-rows: auto; }
   @media (min-width: 768px) {
-    #pig-bio {
+    #adopt-pig-bio {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
-    #pig-bio {
+    #adopt-pig-bio {
       padding: 160px 40px; } }
   @media (min-width: 768px) {
-    #pig-bio {
+    #adopt-pig-bio {
       grid-template-areas: "bio-h2 bio-img" "bio-content bio-content";
-      grid-template-columns: 50% 50%; } }
+      grid-template-columns: 50% 50%;
+      grid-gap: 24px; } }
   @media (min-width: 992px) {
-    #pig-bio {
+    #adopt-pig-bio {
       grid-template-areas: ". bio-h2 . ." ". bio-img bio-content .";
       grid-template-columns: auto 300px 600px auto; } }
-  #pig-bio div:nth-child(1) {
+  #adopt-pig-bio div:nth-child(1) {
     grid-area: bio-h2;
     margin-bottom: 40px; }
-    #pig-bio div:nth-child(1) h1 {
+    #adopt-pig-bio div:nth-child(1) h1 {
       color: #E5518D;
       line-height: 2.5rem;
       padding-bottom: 0px; }
-    #pig-bio div:nth-child(1) img {
+    #adopt-pig-bio div:nth-child(1) img {
       padding-right: 5px; }
-    #pig-bio div:nth-child(1) h1:nth-child(1) {
+    #adopt-pig-bio div:nth-child(1) h1:nth-child(1) {
       padding-left: 20px; }
-    #pig-bio div:nth-child(1) h1:nth-child(3) {
+    #adopt-pig-bio div:nth-child(1) h1:nth-child(3) {
       padding-left: 120px; }
       @media (min-width: 992px) {
-        #pig-bio div:nth-child(1) h1:nth-child(3) {
+        #adopt-pig-bio div:nth-child(1) h1:nth-child(3) {
           padding-top: 16px; } }
-  #pig-bio div:nth-child(2) {
+  #adopt-pig-bio div:nth-child(2) {
     grid-area: bio-img; }
-    #pig-bio div:nth-child(2) article {
+    #adopt-pig-bio div:nth-child(2) article {
       background-image: url("../img/adopt/pig2.jpg");
       background-size: 100%;
       background-position: cetner center;
@@ -695,100 +703,100 @@ header {
       height: 160px;
       width: 160px; }
       @media (min-width: 768px) {
-        #pig-bio div:nth-child(2) article {
+        #adopt-pig-bio div:nth-child(2) article {
           height: 280px;
           width: 280px; } }
       @media (min-width: 992px) {
-        #pig-bio div:nth-child(2) article {
+        #adopt-pig-bio div:nth-child(2) article {
           height: 320px;
           width: 320px;
           margin-top: 40px; } }
-  #pig-bio div:nth-child(3) {
+  #adopt-pig-bio div:nth-child(3) {
     grid-area: bio-content; }
     @media (min-width: 768px) {
-      #pig-bio div:nth-child(3) {
+      #adopt-pig-bio div:nth-child(3) {
         padding: 0px 80px; } }
-    #pig-bio div:nth-child(3) article h2 {
+    #adopt-pig-bio div:nth-child(3) article h2 {
       padding-top: 40px; }
-    #pig-bio div:nth-child(3) article p {
+    #adopt-pig-bio div:nth-child(3) article p {
       padding-top: 24px; }
-      #pig-bio div:nth-child(3) article p span {
+      #adopt-pig-bio div:nth-child(3) article p span {
         font-weight: 800; }
-    #pig-bio div:nth-child(3) article aside button {
+    #adopt-pig-bio div:nth-child(3) article aside button {
       display: flex;
       margin: 16px 0px; }
       @media (min-width: 768px) {
-        #pig-bio div:nth-child(3) article aside button {
+        #adopt-pig-bio div:nth-child(3) article aside button {
           display: inline-block;
           margin: 40px 16px 0px 0px; } }
 
-#testimonials {
+#adopt-testimonials {
   padding: 60px 24px;
   display: grid;
   grid-template-areas: "test-h2" "test-content";
   grid-gap: 24px; }
   @media (min-width: 768px) {
-    #testimonials {
+    #adopt-testimonials {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
-    #testimonials {
+    #adopt-testimonials {
       padding: 160px 40px; } }
   @media (min-width: 768px) {
-    #testimonials {
+    #adopt-testimonials {
       grid-template-areas: "test-h2 test-content";
       grid-template-columns: 40% 60%; } }
   @media (min-width: 992px) {
-    #testimonials {
+    #adopt-testimonials {
       grid-template-areas: ". test-h2 ." ". test-content .";
       grid-template-columns: auto 900px auto; } }
-  #testimonials h2 {
+  #adopt-testimonials h2 {
     grid-area: test-h2; }
     @media (min-width: 768px) {
-      #testimonials h2 {
+      #adopt-testimonials h2 {
         padding-top: 160px; } }
     @media (min-width: 992px) {
-      #testimonials h2 {
+      #adopt-testimonials h2 {
         text-align: center;
         margin: 0px 80px; } }
-    #testimonials h2 span {
+    #adopt-testimonials h2 span {
       color: #E5518D; }
-  #testimonials ul {
+  #adopt-testimonials ul {
     grid-area: test-content; }
     @media (min-width: 992px) {
-      #testimonials ul {
+      #adopt-testimonials ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "test1 test2 test3";
         grid-gap: 24px; } }
-    #testimonials ul li {
+    #adopt-testimonials ul li {
       position: relative;
       background-color: #F0ECD9;
       border-radius: 8px;
       padding: 24px;
       margin: 0px 0px 48px 32px; }
       @media (min-width: 768px) {
-        #testimonials ul li {
+        #adopt-testimonials ul li {
           margin: 0px 32px 48px 32px; } }
       @media (min-width: 992px) {
-        #testimonials ul li {
+        #adopt-testimonials ul li {
           margin: 0px 8px 48px 8px; } }
-      #testimonials ul li h1 {
+      #adopt-testimonials ul li h1 {
         color: #E5518D;
         font-size: 5rem;
         position: absolute;
         left: -20px;
         top: -20px; }
-      #testimonials ul li p {
+      #adopt-testimonials ul li p {
         padding-bottom: 24px; }
-        #testimonials ul li p span {
+        #adopt-testimonials ul li p span {
           font-weight: 700;
           color: #18186B; }
-      #testimonials ul li h3 {
+      #adopt-testimonials ul li h3 {
         font-size: 1rem;
         color: #18186B; }
-    #testimonials ul li:nth-child(1) {
+    #adopt-testimonials ul li:nth-child(1) {
       grid-area: test1; }
-    #testimonials ul li:nth-child(2) {
+    #adopt-testimonials ul li:nth-child(2) {
       grid-area: test2; }
-    #testimonials ul li:nth-child(3) {
+    #adopt-testimonials ul li:nth-child(3) {
       grid-area: test3; }
