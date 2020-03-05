@@ -343,7 +343,8 @@ h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 3.6875rem;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  color: #18186B; }
   @media (min-width: 768px) {
     h1 {
       font-size: 4.5rem;
@@ -361,7 +362,8 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 2.25rem;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  color: #18186B; }
   @media (min-width: 768px) {
     h2 {
       font-size: 2.5rem;
@@ -378,14 +380,16 @@ h3 {
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
-  line-height: 1.75rem; }
+  line-height: 1.75rem;
+  color: #18186B; }
 
 p {
   font-family: mr-eaves-xl-modern, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  line-height: 1.375rem; }
+  line-height: 1.375rem;
+  color: #423E3C; }
 
 /* =============
     Buttons
@@ -399,11 +403,13 @@ button {
   color: #18186B;
   border: 5px solid #18186B;
   background-color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 900;
   cursor: pointer;
   display: inline-block;
   font-family: sans-serif;
   font-family: mr-eaves-xl-modern, sans-serif;
-  padding: 1rem 3rem;
+  padding: 0.5rem 2rem;
   text-align: center;
   text-decoration: none;
   transition: background 250ms ease-in-out, transform 150ms ease;
@@ -461,3 +467,239 @@ header {
 /* =============
     Footer
 ============= */
+#expect {
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "expect-img" "expect-h2" "expect-content";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
+  @media (min-width: 768px) {
+    #expect {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #expect {
+      padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #expect {
+      grid-template-areas: "expect-h2 ." "expect-content expect-img";
+      grid-template-columns: 40% 60%; } }
+  #expect div:nth-child(1) {
+    grid-area: expect-img;
+    background-image: url("../img/adopt/heart-line.svg");
+    background-size: contain;
+    background-position: left top;
+    background-repeat: no-repeat; }
+    #expect div:nth-child(1) aside {
+      position: relative;
+      background-image: url("../img/adopt/pig1.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 320px;
+      background-position: right center; }
+      @media (min-width: 768px) {
+        #expect div:nth-child(1) aside {
+          height: 480px;
+          background-position: bottom right; } }
+  #expect div:nth-child(2) {
+    grid-area: expect-h2; }
+    #expect div:nth-child(2) h2 span {
+      color: #FBB938; }
+  #expect div:nth-child(3) {
+    grid-area: expect-content; }
+    #expect div:nth-child(3) li {
+      margin: 40px 0px;
+      padding-left: 16px; }
+      @media (min-width: 768px) {
+        #expect div:nth-child(3) li {
+          margin: 60px 0px; } }
+      @media (min-width: 992px) {
+        #expect div:nth-child(3) li {
+          margin: 80px 0px; } }
+      #expect div:nth-child(3) li h3 {
+        color: #18186B; }
+    #expect div:nth-child(3) li:nth-child(-n+4) {
+      border-left: 8px solid #F0ECD9; }
+
+#adopt-hero {
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "hero-content" "hero-img";
+  grid-template-rows: auto 500px; }
+  @media (min-width: 768px) {
+    #adopt-hero {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #adopt-hero {
+      padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #adopt-hero {
+      grid-template-areas: "hero-content hero-img";
+      grid-template-columns: 40% 60%;
+      grid-template-rows: 600px;
+      grid-gap: 24px; } }
+  #adopt-hero div:nth-child(1) {
+    grid-area: hero-content; }
+    @media (min-width: 768px) {
+      #adopt-hero div:nth-child(1) {
+        justify-content: center;
+        display: flex;
+        align-items: center; } }
+    #adopt-hero div:nth-child(1) h2 span {
+      color: #FBB938; }
+  #adopt-hero div:nth-child(2) {
+    grid-area: hero-img;
+    background-image: url("../img/adopt/hero.svg");
+    background-size: fit;
+    background-repeat: no-repeat; }
+
+#adopt-oinking {
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "oink-head" "oink-bullets" " oink-cta";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
+  @media (min-width: 768px) {
+    #adopt-oinking {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #adopt-oinking {
+      padding: 100px 40px; } }
+  #adopt-oinking div:nth-child(1) {
+    grid-area: oink-head; }
+    #adopt-oinking div:nth-child(1) h2 span {
+      color: #A92FAC; }
+  #adopt-oinking div:nth-child(2) {
+    margin: 0 auto;
+    grid-area: oink-cta; }
+    #adopt-oinking div:nth-child(2) aside {
+      background-image: url("../img/adopt/pig3.png");
+      background-size: cover;
+      height: 240px;
+      background-position: center;
+      background-repeat: no-repeat; }
+  #adopt-oinking div:nth-child(3) {
+    grid-area: oink-bullets; }
+    #adopt-oinking div:nth-child(3) ul li {
+      background-repeat: no-repeat;
+      background-size: fit;
+      padding: 40px 0px 40px 40px; }
+      #adopt-oinking div:nth-child(3) ul li h2 {
+        color: #A92FAC; }
+    #adopt-oinking div:nth-child(3) ul li:nth-child(1) {
+      background-image: url("../img/adopt/size.svg"); }
+    #adopt-oinking div:nth-child(3) ul li:nth-child(2) {
+      background-image: url("../img/adopt/vaccines.svg"); }
+    #adopt-oinking div:nth-child(3) ul li:nth-child(3) {
+      background-image: url("../img/adopt/cost.svg"); }
+
+#pig-bio {
+  background-image: url("../img/adopt/bkg-wave.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "bio-h2" "bio-img" "bio-content";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
+  @media (min-width: 768px) {
+    #pig-bio {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #pig-bio {
+      padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #pig-bio {
+      grid-template-areas: "bio-h2 bio-img" "bio-content bio-content";
+      grid-template-columns: 50% 50%; } }
+  #pig-bio div:nth-child(1) {
+    grid-area: bio-h2;
+    margin-bottom: 40px; }
+    #pig-bio div:nth-child(1) h1 {
+      color: #E5518D;
+      line-height: 2.5rem;
+      padding-bottom: 0px; }
+    #pig-bio div:nth-child(1) img {
+      padding-right: 5px; }
+    #pig-bio div:nth-child(1) h1:nth-child(1) {
+      padding-left: 20px; }
+    #pig-bio div:nth-child(1) h1:nth-child(3) {
+      padding-left: 120px; }
+  #pig-bio div:nth-child(2) {
+    grid-area: bio-img; }
+    #pig-bio div:nth-child(2) article {
+      background-image: url("../img/adopt/pig2.jpg");
+      background-size: 100%;
+      background-position: cetner center;
+      border-radius: 50%;
+      height: 160px;
+      width: 160px; }
+      @media (min-width: 768px) {
+        #pig-bio div:nth-child(2) article {
+          height: 280px;
+          width: 280px; } }
+  #pig-bio div:nth-child(3) {
+    grid-area: bio-content; }
+    @media (min-width: 768px) {
+      #pig-bio div:nth-child(3) {
+        padding: 0px 80px; } }
+    #pig-bio div:nth-child(3) article h2 {
+      padding-top: 40px; }
+    #pig-bio div:nth-child(3) article p {
+      padding-top: 24px; }
+      #pig-bio div:nth-child(3) article p span {
+        font-weight: 800; }
+    #pig-bio div:nth-child(3) article aside button {
+      display: flex;
+      margin: 16px 0px; }
+      @media (min-width: 768px) {
+        #pig-bio div:nth-child(3) article aside button {
+          display: inline-block;
+          margin: 40px 16px 0px 0px; } }
+
+#testimonials {
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "test-h2" "test-content";
+  grid-gap: 24px; }
+  @media (min-width: 768px) {
+    #testimonials {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #testimonials {
+      padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #testimonials {
+      grid-template-areas: "test-h2 test-content";
+      grid-template-columns: 40% 60%; } }
+  #testimonials h2 {
+    grid-area: test-h2; }
+    @media (min-width: 768px) {
+      #testimonials h2 {
+        padding-top: 160px; } }
+    #testimonials h2 span {
+      color: #E5518D; }
+  #testimonials ul {
+    grid-area: test-content; }
+    #testimonials ul li {
+      position: relative;
+      background-color: #F0ECD9;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 0px 0px 48px 32px; }
+      @media (min-width: 768px) {
+        #testimonials ul li {
+          margin: 0px 32px 48px 32px; } }
+      #testimonials ul li h1 {
+        color: #E5518D;
+        font-size: 5rem;
+        position: absolute;
+        left: -20px;
+        top: -20px; }
+      #testimonials ul li p {
+        padding-bottom: 24px; }
+        #testimonials ul li p span {
+          font-weight: 700; }
+      #testimonials ul li h3 {
+        font-size: 1rem;
+        color: #18186B; }

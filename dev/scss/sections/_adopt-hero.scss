@@ -1,0 +1,36 @@
+#adopt-hero{
+    @include section-padding;
+    display: grid;
+    grid-template-areas:
+            "hero-content"
+            "hero-img";
+    grid-template-rows: auto 500px;
+    @include md{
+        grid-template-areas:
+                "hero-content hero-img";
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 600px;
+        grid-gap: 24px;
+    }
+    div:nth-child(1){
+        grid-area: hero-content;
+        @include md{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+        h2{
+            @include md{
+            }
+            span{
+                color: $accent;
+            }
+        }
+    }
+    div:nth-child(2){
+        grid-area: hero-img;
+        background-image: url('../img/adopt/hero.svg');
+        background-size: fit;
+        background-repeat: no-repeat;
+    }
+}

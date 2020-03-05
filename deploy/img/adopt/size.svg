@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="87px" viewBox="0 0 150 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ac-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ac-adopt" transform="translate(-100.000000, -3600.000000)" stroke="#F0ECD9" stroke-width="5">
+            <g id="Group-2" transform="translate(102.000000, 3600.000000)">
+                <polygon id="Path" points="1 84 145 84 145 54 1 54"></polygon>
+                <line x1="1" y1="42" x2="1" y2="0" id="Path"></line>
+                <line x1="145" y1="42" x2="145" y2="0" id="Path"></line>
+                <line x1="139" y1="22" x2="127" y2="7" id="Path"></line>
+                <line x1="127" y1="37" x2="139" y2="22" id="Path"></line>
+                <line x1="127" y1="7" x2="127" y2="37" id="Path"></line>
+                <line x1="127" y1="22" x2="18" y2="22" id="Path"></line>
+                <line x1="19" y1="7" x2="19" y2="37" id="Path"></line>
+                <line x1="19" y1="7" x2="7" y2="22" id="Path"></line>
+                <line x1="19" y1="37" x2="7" y2="22" id="Path"></line>
+                <line x1="132.001" y1="55" x2="131.999" y2="62" id="Path"></line>
+                <line x1="117" y1="54" x2="117" y2="66" id="Path"></line>
+                <line x1="102" y1="62" x2="102" y2="55" id="Path"></line>
+                <line x1="88" y1="54" x2="88" y2="66" id="Path"></line>
+                <line x1="73" y1="55" x2="73" y2="62" id="Path"></line>
+                <line x1="58" y1="54" x2="58" y2="66" id="Path"></line>
+                <line x1="44" y1="55" x2="44" y2="62" id="Path"></line>
+                <line x1="29" y1="54" x2="29" y2="66" id="Path"></line>
+                <line x1="14.001" y1="55" x2="13.999" y2="62" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>
