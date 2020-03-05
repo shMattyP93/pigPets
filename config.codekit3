@@ -184,6 +184,80 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/care/blue-heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/blue-heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-hero.jpg": {
+		"ft": 16384,
+		"iS": 1202344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-accent.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-accent.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-two-bg.jpg": {
+		"ft": 16384,
+		"iS": 131718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-two-img01.jpg": {
+		"ft": 16384,
+		"iS": 361434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-img02.jpg": {
+		"ft": 16384,
+		"iS": 306128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/home/pigpet-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -568,7 +642,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_care.scss": {
+	"/dev/scss/sections/_care-hero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -576,7 +650,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_care.css",
+		"oAP": "/dev/scss/sections/_care-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_care-three.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_care-three.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_care-two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_care-two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

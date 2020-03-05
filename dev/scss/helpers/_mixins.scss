@@ -169,6 +169,26 @@ html {
     }
 }
 
+@mixin section-padding-no-left{
+    padding: 60px 24px 60px 0px;
+    @include md{
+        padding: 80px 40px 80px 0px;
+    }
+    @include lg{
+        padding: 100px 40px 100px 0px;
+    }
+}
+
+@mixin section-padding-no-right{
+    padding: 60px 0px 60px 24px;
+    @include md{
+        padding: 80px 0px 80px 40px;
+    }
+    @include lg{
+        padding: 100px 0px 100px 40px;
+    }
+}
+
 // Use for list items
 @mixin li-padding{
     margin: 40px 0px;

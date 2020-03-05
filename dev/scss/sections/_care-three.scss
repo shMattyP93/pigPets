@@ -1,0 +1,21 @@
+#care-three{
+  @include section-padding;
+  h2{
+    span{
+      color: $hot;
+    }
+  }
+  .content-container{
+    div{
+      position: relative;
+      &:nth-child(1),&:nth-child(2),&:nth-child(3){
+        padding-bottom: 40px;
+      }
+      img{
+        position: absolute;
+        top: -10px;
+        left: -10px;
+      }
+    }
+  }
+}
