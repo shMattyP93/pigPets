@@ -10,11 +10,13 @@ button {
     color: $navy;
     border: 5px solid $navy;
     background-color: $white;
+    font-size: rem-calc(20);
+    font-weight: 900;
     cursor: pointer;
     display: inline-block;
     font-family: sans-serif;
     font-family: mr-eaves-xl-modern, sans-serif;
-    padding: 1rem 3rem;
+    padding: 0.5rem 2rem;
     text-align: center;
     text-decoration: none;
     transition: background 250ms ease-in-out, transform 150ms ease;
