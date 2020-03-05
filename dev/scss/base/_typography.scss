@@ -12,16 +12,20 @@ body{
 
 h1{
     @include h1-text;
+    color: $navy;
 }
 
 h2{
     @include h2-text;
+    color: $navy;
 }
 
 h3{
     @include h3-text;
+    color: $navy;
 }
 
 p{
     @include p-text;
+    color: $dusk;
 }
