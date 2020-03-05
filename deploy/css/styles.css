@@ -468,14 +468,23 @@ header {
     Footer
 ============= */
 #expect {
-  padding: 60px 24px; }
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "expect-img" "expect-h2" "expect-content";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
   @media (min-width: 768px) {
     #expect {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
     #expect {
       padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #expect {
+      grid-template-areas: "expect-h2 ." "expect-content expect-img";
+      grid-template-columns: 40% 60%; } }
   #expect div:nth-child(1) {
+    grid-area: expect-img;
     background-image: url("../img/adopt/heart-line.svg");
     background-size: contain;
     background-position: left top;
@@ -487,38 +496,56 @@ header {
       background-repeat: no-repeat;
       height: 320px;
       background-position: right center; }
-  #expect div:nth-child(2) h2 span {
-    color: #FBB938; }
-  #expect div:nth-child(3) li {
-    margin: 40px 0px;
-    padding-left: 16px; }
-    @media (min-width: 768px) {
-      #expect div:nth-child(3) li {
-        margin: 60px 0px; } }
-    @media (min-width: 992px) {
-      #expect div:nth-child(3) li {
-        margin: 80px 0px; } }
-    #expect div:nth-child(3) li h3 {
-      color: #18186B; }
-  #expect div:nth-child(3) li:nth-child(-n+4) {
-    border-left: 8px solid #F0ECD9; }
+      @media (min-width: 768px) {
+        #expect div:nth-child(1) aside {
+          height: 480px;
+          background-position: bottom right; } }
+  #expect div:nth-child(2) {
+    grid-area: expect-h2; }
+    #expect div:nth-child(2) h2 span {
+      color: #FBB938; }
+  #expect div:nth-child(3) {
+    grid-area: expect-content; }
+    #expect div:nth-child(3) li {
+      margin: 40px 0px;
+      padding-left: 16px; }
+      @media (min-width: 768px) {
+        #expect div:nth-child(3) li {
+          margin: 60px 0px; } }
+      @media (min-width: 992px) {
+        #expect div:nth-child(3) li {
+          margin: 80px 0px; } }
+      #expect div:nth-child(3) li h3 {
+        color: #18186B; }
+    #expect div:nth-child(3) li:nth-child(-n+4) {
+      border-left: 8px solid #F0ECD9; }
 
 #adopt-hero {
   padding: 60px 24px;
   display: grid;
-  grid-template-areas: "hero-content ." "hero-img hero-img";
-  grid-template-columns: 60% 40%;
-  grid-template-rows: auto 400px; }
+  grid-template-areas: "hero-content" "hero-img";
+  grid-template-rows: auto 500px; }
   @media (min-width: 768px) {
     #adopt-hero {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
     #adopt-hero {
       padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #adopt-hero {
+      grid-template-areas: "hero-content hero-img";
+      grid-template-columns: 40% 60%;
+      grid-template-rows: 600px;
+      grid-gap: 24px; } }
   #adopt-hero div:nth-child(1) {
     grid-area: hero-content; }
+    @media (min-width: 768px) {
+      #adopt-hero div:nth-child(1) {
+        justify-content: center;
+        display: flex;
+        align-items: center; } }
     #adopt-hero div:nth-child(1) h2 span {
-      color: #E26D52; }
+      color: #FBB938; }
   #adopt-hero div:nth-child(2) {
     grid-area: hero-img;
     background-image: url("../img/adopt/hero.svg");
@@ -540,7 +567,7 @@ header {
   #adopt-oinking div:nth-child(1) {
     grid-area: oink-head; }
     #adopt-oinking div:nth-child(1) h2 span {
-      color: #7297FF; }
+      color: #A92FAC; }
   #adopt-oinking div:nth-child(2) {
     margin: 0 auto;
     grid-area: oink-cta; }
@@ -557,7 +584,7 @@ header {
       background-size: fit;
       padding: 40px 0px 40px 40px; }
       #adopt-oinking div:nth-child(3) ul li h2 {
-        color: #7297FF; }
+        color: #A92FAC; }
     #adopt-oinking div:nth-child(3) ul li:nth-child(1) {
       background-image: url("../img/adopt/size.svg"); }
     #adopt-oinking div:nth-child(3) ul li:nth-child(2) {
@@ -567,16 +594,26 @@ header {
 
 #pig-bio {
   background-image: url("../img/adopt/bkg-wave.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-  padding: 60px 24px; }
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "bio-h2" "bio-img" "bio-content";
+  grid-template-columns: 100%;
+  grid-template-rows: auto; }
   @media (min-width: 768px) {
     #pig-bio {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
     #pig-bio {
       padding: 100px 40px; } }
+  @media (min-width: 768px) {
+    #pig-bio {
+      grid-template-areas: "bio-h2 bio-img" "bio-content bio-content";
+      grid-template-columns: 50% 50%; } }
   #pig-bio div:nth-child(1) {
+    grid-area: bio-h2;
     margin-bottom: 40px; }
     #pig-bio div:nth-child(1) h1 {
       color: #E5518D;
@@ -588,49 +625,81 @@ header {
       padding-left: 20px; }
     #pig-bio div:nth-child(1) h1:nth-child(3) {
       padding-left: 120px; }
-  #pig-bio div:nth-child(2) article:nth-child(1) {
-    background-image: url("../img/adopt/pig2.jpg");
-    background-size: 100%;
-    background-position: cetner center;
-    border-radius: 50%;
-    height: 160px;
-    width: 160px; }
-  #pig-bio div:nth-child(2) article:nth-child(2) h2 {
-    padding-top: 40px; }
-  #pig-bio div:nth-child(2) article:nth-child(2) p {
-    padding-top: 24px; }
-    #pig-bio div:nth-child(2) article:nth-child(2) p span {
-      font-weight: 800; }
-  #pig-bio div:nth-child(2) article:nth-child(2) aside button {
-    display: flex;
-    margin: 16px 0px; }
+  #pig-bio div:nth-child(2) {
+    grid-area: bio-img; }
+    #pig-bio div:nth-child(2) article {
+      background-image: url("../img/adopt/pig2.jpg");
+      background-size: 100%;
+      background-position: cetner center;
+      border-radius: 50%;
+      height: 160px;
+      width: 160px; }
+      @media (min-width: 768px) {
+        #pig-bio div:nth-child(2) article {
+          height: 280px;
+          width: 280px; } }
+  #pig-bio div:nth-child(3) {
+    grid-area: bio-content; }
+    @media (min-width: 768px) {
+      #pig-bio div:nth-child(3) {
+        padding: 0px 80px; } }
+    #pig-bio div:nth-child(3) article h2 {
+      padding-top: 40px; }
+    #pig-bio div:nth-child(3) article p {
+      padding-top: 24px; }
+      #pig-bio div:nth-child(3) article p span {
+        font-weight: 800; }
+    #pig-bio div:nth-child(3) article aside button {
+      display: flex;
+      margin: 16px 0px; }
+      @media (min-width: 768px) {
+        #pig-bio div:nth-child(3) article aside button {
+          display: inline-block;
+          margin: 40px 16px 0px 0px; } }
 
 #testimonials {
-  padding: 60px 24px; }
+  padding: 60px 24px;
+  display: grid;
+  grid-template-areas: "test-h2" "test-content";
+  grid-gap: 24px; }
   @media (min-width: 768px) {
     #testimonials {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
     #testimonials {
       padding: 100px 40px; } }
-  #testimonials h2 span {
-    color: #E5518D; }
-  #testimonials ul li {
-    position: relative;
-    background-color: #F0ECD9;
-    border-radius: 8px;
-    padding: 24px;
-    margin: 0px 0px 48px 32px; }
-    #testimonials ul li h1 {
-      color: #E5518D;
-      font-size: 5rem;
-      position: absolute;
-      left: -20px;
-      top: -20px; }
-    #testimonials ul li p {
-      padding-bottom: 24px; }
-      #testimonials ul li p span {
-        font-weight: 700; }
-    #testimonials ul li h3 {
-      font-size: 1rem;
-      color: #18186B; }
+  @media (min-width: 768px) {
+    #testimonials {
+      grid-template-areas: "test-h2 test-content";
+      grid-template-columns: 40% 60%; } }
+  #testimonials h2 {
+    grid-area: test-h2; }
+    @media (min-width: 768px) {
+      #testimonials h2 {
+        padding-top: 160px; } }
+    #testimonials h2 span {
+      color: #E5518D; }
+  #testimonials ul {
+    grid-area: test-content; }
+    #testimonials ul li {
+      position: relative;
+      background-color: #F0ECD9;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 0px 0px 48px 32px; }
+      @media (min-width: 768px) {
+        #testimonials ul li {
+          margin: 0px 32px 48px 32px; } }
+      #testimonials ul li h1 {
+        color: #E5518D;
+        font-size: 5rem;
+        position: absolute;
+        left: -20px;
+        top: -20px; }
+      #testimonials ul li p {
+        padding-bottom: 24px; }
+        #testimonials ul li p span {
+          font-weight: 700; }
+      #testimonials ul li h3 {
+        font-size: 1rem;
+        color: #18186B; }

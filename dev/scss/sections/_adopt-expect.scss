@@ -1,7 +1,23 @@
 #expect{
     @include section-padding;
+    display: grid;
+    grid-template-areas:
+            "expect-img"
+            "expect-h2"
+            "expect-content";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+
+    @include md{
+        grid-template-areas:
+                "expect-h2 ."
+                "expect-content expect-img";
+        grid-template-columns: 40% 60%;
+    }
 
     div:nth-child(1){
+        // images
+        grid-area: expect-img;
         background-image: url('../img/adopt/heart-line.svg');
         background-size: contain;
         background-position: left top;
@@ -13,9 +29,15 @@
             background-repeat: no-repeat;
             height: 320px;
             background-position: right center;
+            @include md{
+                height: 480px;
+                background-position: bottom right;
+            }
         }
     }
     div:nth-child(2){
+        // heading
+        grid-area: expect-h2;
         h2{
             span{
                 color: $accent;
@@ -23,6 +45,8 @@
         }
     }
     div:nth-child(3){
+        // content
+        grid-area: expect-content;
         li{
             @include li-padding;
             padding-left: 16px;
