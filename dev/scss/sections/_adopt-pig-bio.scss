@@ -20,6 +20,13 @@
         grid-template-columns: 50% 50%;
     }
 
+    @include lg{
+        grid-template-areas:
+                ". bio-h2 . ."
+                ". bio-img bio-content .";
+        grid-template-columns: auto 300px 600px auto;
+    }
+
     div:nth-child(1){
         // heading
         grid-area: bio-h2;
@@ -37,10 +44,13 @@
         }
         h1:nth-child(3){
             padding-left: 120px;
+            @include lg{
+                padding-top: 16px;
+            }
         }
     }
      div:nth-child(2){
-        // image
+        // image of pig
         grid-area: bio-img;
         article{
             background-image: url('../img/adopt/pig2.jpg');
@@ -52,6 +62,11 @@
             @include md{
                 height: 280px;
                 width: 280px;
+            }
+            @include lg{
+                height: 320px;
+                width: 320px;
+                margin-top: 40px;
             }
         }
     }

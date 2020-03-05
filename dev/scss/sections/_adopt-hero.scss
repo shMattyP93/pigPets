@@ -1,4 +1,5 @@
 #adopt-hero{
+
     @include section-padding;
     display: grid;
     grid-template-areas:
@@ -11,6 +12,15 @@
         grid-template-columns: 40% 60%;
         grid-template-rows: 600px;
         grid-gap: 24px;
+    }
+    @include lg{
+        background-image: url('../img/adopt/line.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        grid-template-areas:
+                ". hero-content hero-img .";
+        grid-template-columns: auto 320px 600px auto;
     }
     div:nth-child(1){
         grid-area: hero-content;
@@ -32,5 +42,8 @@
         background-image: url('../img/adopt/hero.svg');
         background-size: fit;
         background-repeat: no-repeat;
+        @include lg{
+            background-size: cover;
+        }
     }
 }

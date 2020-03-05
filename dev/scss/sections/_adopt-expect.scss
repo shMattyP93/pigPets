@@ -15,6 +15,14 @@
         grid-template-columns: 40% 60%;
     }
 
+    @include lg{
+        grid-template-areas:
+                ". expect-img expect-content ."
+                ". expect-h2 expect-content .";
+        grid-template-columns: auto 400px 400px auto;
+        grid-gap: 0px 80px;
+    }
+
     div:nth-child(1){
         // images
         grid-area: expect-img;
@@ -22,6 +30,10 @@
         background-size: contain;
         background-position: left top;
         background-repeat: no-repeat;
+        @include lg{
+            background-position: -120px -290px;
+            background-size: 130%;
+        }
         aside{
             position: relative;
             background-image: url('../img/adopt/pig1.png');
@@ -39,6 +51,10 @@
         // heading
         grid-area: expect-h2;
         h2{
+            @include lg{
+                position: relative;
+                top: -90px;
+            }
             span{
                 color: $accent;
             }
