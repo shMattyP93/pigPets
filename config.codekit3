@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/deploy/adopt.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -121,8 +129,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/adopt.html",
-		"oF": 2
+		"oAP": "/dev/adopt.html",
+		"oF": 0
 		},
 	"/dev/benefits.kit": {
 		"cB": 0,
