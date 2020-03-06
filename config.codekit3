@@ -194,6 +194,11 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/care/blue-heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/blue-heart.svg",
 	"/deploy/img/home/bkg-blob1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -204,6 +209,56 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/care/care-hero.jpg": {
+		"ft": 16384,
+		"iS": 1202344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-dt.png": {
+		"ft": 32768,
+		"iS": 262960,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-mb.png": {
+		"ft": 32768,
+		"iS": 16750,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-mb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-tb.png": {
+		"ft": 32768,
+		"iS": 144963,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-tb.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-accent.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-accent.svg",
+=======
 	"/deploy/img/home/bkg2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -254,6 +309,22 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/care/care-two-bg.jpg": {
+		"ft": 16384,
+		"iS": 131718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-bg.svg",
 	"/deploy/img/home/hero-group2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -305,6 +376,12 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/care/care-two-img01.jpg": {
+		"ft": 16384,
+		"iS": 361434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img01.jpg",
 	"/deploy/img/home/pig-footer.jpg": {
 		"ft": 16384,
 		"iS": 154579,
@@ -316,6 +393,12 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/care/care-two-img02.jpg": {
+		"ft": 16384,
+		"iS": 306128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img02.jpg",
 	"/deploy/img/home/pig-lovestory.jpg": {
 		"ft": 16384,
 		"iS": 57629,
@@ -348,6 +431,7 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+>>>>>>> development
 	"/deploy/img/home/pigpet-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -732,7 +816,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_care.scss": {
+	"/dev/scss/sections/_care-hero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -740,7 +824,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_care.css",
+		"oAP": "/dev/scss/sections/_care-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_care-three.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_care-three.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_care-two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_care-two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="871px" height="839px" viewBox="0 0 871 839" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.0%" y="-9.8%" width="116.1%" height="119.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="3" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.380293252   0 0 0 0 0.380293252   0 0 0 0 0.380293252  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.5 0.5 335.5 0.5 335.5 275.5 0.5 275.5"></polygon>
+        <path d="M72.6431627,449.407913 C72.6431627,449.407913 0.542718263,452.712511 13.5756571,419.729514 C26.6088607,386.746782 45.6695933,418.118007 53.8443814,410.827163 C62.0194344,403.536319 52.0565438,382.27129 72.0254979,385.916845 C91.9941871,389.5624 89.0801442,449.655061 72.6431627,449.407913 Z" id="path-4"></path>
+        <filter x="-12.8%" y="-16.4%" width="139.2%" height="145.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="5" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.124863418 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-6.4%" y="-4.3%" width="112.8%" height="108.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.380293252   0 0 0 0 0.380293252   0 0 0 0 0.380293252  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-7" points="0.365077665 0.194115238 359.365078 0.194115238 359.365078 529.194115 0.365077665 529.194115"></polygon>
+    </defs>
+    <g id="mp-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mp-care" transform="translate(-138.000000, -887.000000)">
+            <g id="Group-10" transform="translate(134.000000, 848.500000)">
+                <g id="Group-3-Copy-5" filter="url(#filter-1)" opacity="0.484747024" style="mix-blend-mode: multiply;" transform="translate(704.500000, 210.000000) rotate(-114.000000) translate(-704.500000, -210.000000) translate(536.500000, 72.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M98.1856575,35.3350027 C98.1856575,35.3350027 84.9767482,63.1014173 35.0754129,111.328873 C-27.0999493,171.415656 10.0769776,210.196569 27.689615,237.962984 C45.3022524,265.729399 106.426725,285.111037 217.975703,270.496763 C329.522406,255.882489 376.491714,122.89542 292.827706,57.1294247 C209.168247,-8.63480714 137.81466,-18.7374574 98.1856575,35.3350027" id="Fill-1" fill="#F6F4ED" mask="url(#mask-3)"></path>
+                </g>
+                <g id="Stroke-1-Copy-5" style="mix-blend-mode: multiply;" transform="translate(49.000000, 417.500000) rotate(45.000000) translate(-49.000000, -417.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="#FCFCF9" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <g id="Group-3" filter="url(#filter-6)" opacity="0.484747024" style="mix-blend-mode: multiply;" transform="translate(483.829038, 630.059193) rotate(-56.000000) translate(-483.829038, -630.059193) translate(303.829038, 365.059193)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M37.4175351,213.388566 C-29.2121814,328.973686 10.6281671,403.574061 29.5026054,456.986546 C48.3770436,510.399031 113.880583,547.682255 233.42113,519.569707 C352.959238,491.457158 403.293511,235.638396 313.635664,109.128536 C223.982692,-17.377932 147.517206,-36.8117573 105.049111,67.2039931 C105.049111,67.2039931 90.8938914,120.616478 37.4175351,213.388566 Z" id="Fill-1" fill="#F6F4ED" mask="url(#mask-8)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

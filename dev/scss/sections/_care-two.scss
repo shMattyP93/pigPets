@@ -1,0 +1,85 @@
+#care-two{
+  // background-image: url("../img/care/care-two-bg.svg");
+  // background-size: auto;
+  position: relative;
+  .left-content{
+    @include section-padding-no-left;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "pig cont";
+    align-items: center;
+    z-index: 100;
+    @include xl{
+      grid-template-columns: 25% 60% auto;
+      grid-template-areas: "pig cont .";
+    }
+    img{
+      grid-area: pig;
+      width: 100%;
+    }
+    div{
+      grid-area: cont;
+      @include xl{
+        padding-left: 100px;
+      }
+      h2{
+        span{
+          color: $deep;
+        }
+      }
+      p{
+        span{
+          display: none;
+          @include md{
+           display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .right-content{
+    @include section-padding-no-left;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "pig cont";
+    align-items: center;
+    z-index: 100;
+    @include md{
+      grid-template-areas: "cont pig";
+      grid-template-columns: auto 40%;
+      @include section-padding-no-right;
+    }
+    @include xl{
+      grid-template-columns: auto 60% 25%;
+      grid-template-areas: ". cont pig";
+    }
+    img{
+      grid-area: pig;
+      width: 100%;
+      transform: scaleX(-1);
+      @include md{
+        transform: scaleX(1);
+      }
+    }
+    div{
+      grid-area: cont;
+      @include xl{
+        padding-right: 100px;
+      }
+      h2{
+        span{
+          color: $deep;
+        }
+      }
+      p{
+        span{
+          display: none;
+          @include md{
+           display: block;
+          }
+        }
+      }
+    }
+  }
+}

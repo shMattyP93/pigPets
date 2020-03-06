@@ -1,0 +1,96 @@
+#care-three{
+  @include section-padding;
+  background-image: url("../img/care/care-three-mb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  @include md{
+    background-image: url("../img/care/care-three-tb.png");
+    background-size: cover;
+  }
+  @include xl{
+    background-image: url("../img/care/care-three-dt.png");
+    background-size: cover;
+    background-position: top;
+  }
+  .main-content{
+    padding: 40px 0 100px 0;
+    @include md{
+      padding: 80px 80px 240px 80px;
+    }
+    @include xl{
+      padding: 0;
+      display: grid;
+      grid-template-columns: 15% 40% auto;
+      grid-template-areas: ". head ." ". para .";
+      margin-top: 40px;
+      // margin-bottom: 200px;
+      h2{
+        grid-area: head;
+      }
+      p{
+        grid-area: para;
+      }
+    }
+    h2{
+      span{
+        color: $hot;
+      }
+    }
+    p{
+      span{
+        display: none;
+      }
+    }
+  }
+  .content-container{
+    position: relative;
+    @include md{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 50px;
+      padding-left: 40px;
+    }
+    @include xl{
+      grid-template-columns: auto 30% 30%;
+      grid-template-areas: ". lockit ouch" ". lockitt eyes";
+      #eyes{
+        grid-area: eyes;
+      }
+      #lockit{
+        grid-area: lockit;
+        margin-top: 100px;
+      }
+      #lockit2{
+        grid-area: lockitt;
+      }
+      #ouch{
+        grid-area: ouch;
+        margin-top: 100px;
+      }
+    }
+    div{
+      position: relative;
+      &:nth-child(1),&:nth-child(2),&:nth-child(3){
+        padding-bottom: 40px;
+      }
+      img{
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: 1;
+      }
+      h3{
+        position: relative;
+        z-index: 5;
+      }
+    }
+  }
+  #ouch, #eyes{
+    @include md{
+      padding-left: 40px;
+      img{
+        left: 25px;
+      }
+    }
+  }
+}
