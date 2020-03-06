@@ -205,6 +205,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/care/care-three-dt.png": {
+		"ft": 32768,
+		"iS": 262960,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-mb.png": {
+		"ft": 32768,
+		"iS": 16750,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-mb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-tb.png": {
+		"ft": 32768,
+		"iS": 144963,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-tb.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/care/care-two-accent.svg": {
 		"ft": 2097152,
 		"miP": 0,
