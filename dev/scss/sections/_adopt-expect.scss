@@ -1,5 +1,10 @@
-#expect{
+#adopt-expect{
+    background-image: url('../img/adopt/bkg1.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
     @include section-padding;
+    background-size: 40%;
     display: grid;
     grid-template-areas:
             "expect-img"
@@ -9,29 +14,43 @@
     grid-template-rows: auto;
 
     @include md{
+        background-size: 90%;
         grid-template-areas:
                 "expect-h2 ."
                 "expect-content expect-img";
         grid-template-columns: 40% 60%;
     }
 
+    @include lg{
+        background-size: 90%;
+        grid-gap: 0px 80px;
+        grid-template-areas:
+                ". expect-img expect-content ."
+                ". expect-h2 expect-content .";
+        grid-template-columns: auto 400px 400px auto;
+    }
+
     div:nth-child(1){
-        // images
-        grid-area: expect-img;
         background-image: url('../img/adopt/heart-line.svg');
-        background-size: contain;
         background-position: left top;
         background-repeat: no-repeat;
+        background-size: contain;
+        // images
+        grid-area: expect-img;
+        @include lg{
+            background-position: -120px -290px;
+            background-size: 130%;
+        }
         aside{
-            position: relative;
             background-image: url('../img/adopt/pig1.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 320px;
             background-position: right center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 320px;
+            position: relative;
             @include md{
-                height: 480px;
                 background-position: bottom right;
+                height: 480px;
             }
         }
     }
@@ -39,6 +58,10 @@
         // heading
         grid-area: expect-h2;
         h2{
+            @include lg{
+                position: relative;
+                top: -90px;
+            }
             span{
                 color: $accent;
             }

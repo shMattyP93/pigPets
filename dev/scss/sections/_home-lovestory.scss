@@ -1,0 +1,22 @@
+#home-lovestory{
+@include section-padding;
+    div{
+        h2{
+            span{
+                color: $accent;
+            }
+        }
+
+        #home-lovestory-text{
+            padding-bottom: 0px;
+
+        }
+        #home-lovestory-img{
+            background-image: url('../img/home/pig-lovestory.jpg');
+            background-position: center center;
+            height: 240px;
+            background-repeat: no-repeat;
+            background-size: 80%;
+        }
+    }
+}
