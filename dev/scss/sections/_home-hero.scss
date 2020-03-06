@@ -1,0 +1,39 @@
+#home-hero{
+    background-image: url('../img/home/hero-bkg.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div{
+        display: grid;
+        grid-template-areas:
+                "hero-img" "hero-content";
+
+        @include md{
+            grid-template-areas:
+                    "hero-content hero-img";
+            grid-template-columns: 55% 45%;
+        }
+        article{
+            grid-area: hero-content;
+            @include section-padding;
+            h1{
+                span{
+                    color: $hot;
+                }
+            }
+        }
+        div{
+            grid-area: hero-img;
+            background-image: url('../img/home/hero-pig.png');
+            background-position: -70px bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 500px;
+            @include md{
+                background-position: left bottom;
+                padding-top: 80px;
+            }
+        }
+    }
+}

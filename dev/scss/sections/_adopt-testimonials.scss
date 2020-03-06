@@ -1,4 +1,4 @@
-#testimonials{
+#adopt-testimonials{
     @include section-padding;
     display: grid;
     grid-template-areas:
@@ -10,10 +10,20 @@
                 "test-h2 test-content";
         grid-template-columns: 40% 60%;
     }
+    @include lg{
+        grid-template-areas:
+                ". test-h2 ."
+                ". test-content .";
+        grid-template-columns: auto 900px auto;
+    }
     h2{
         grid-area: test-h2;
         @include md{
             padding-top: 160px;
+        }
+        @include lg{
+            text-align: center;
+            margin: 0px 80px;
         }
         span{
             color: $hot;
@@ -21,6 +31,13 @@
     }
     ul{
         grid-area: test-content;
+        @include lg{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas:
+                    "test1 test2 test3";
+            grid-gap: 24px;
+        }
         li{
             position: relative;
             background-color: $light;
@@ -29,6 +46,9 @@
             margin: 0px 0px 48px 32px;
             @include md{
                 margin: 0px 32px 48px 32px;
+            }
+            @include lg{
+                margin: 0px 8px 48px 8px;
             }
             h1{
                 color: $hot;
@@ -41,12 +61,22 @@
                 padding-bottom: 24px;
                 span{
                     font-weight: 700;
+                    color: $navy;
                 }
             }
             h3{
                 font-size: rem-calc(16);
                 color: $navy;
             }
+        }
+        li:nth-child(1){
+            grid-area: test1;
+        }
+        li:nth-child(2){
+            grid-area: test2;
+        }
+        li:nth-child(3){
+            grid-area: test3;
         }
     }
 }
