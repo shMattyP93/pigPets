@@ -1,0 +1,27 @@
+#home-emotion{
+    display: grid;
+    grid-template-areas:
+            "home-emotion-content"
+            "home-emotion-img";
+
+    div{
+        #home-emotion-text{
+            grid-area: home-emotion-text;
+            @include section-padding;
+            padding-bottom: 0px;
+            h2{
+                span{
+                    color: $hot;
+                }
+            }
+        }
+        #home-emotion-img{
+            grid-area: home-emotion-img;
+            background-image: url('../img/home/heart-group.svg');
+            background-position: center;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}

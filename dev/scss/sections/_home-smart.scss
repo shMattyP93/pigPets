@@ -1,0 +1,41 @@
+#home-smart{
+    background-image: url('../img/home/bkg-blob1.svg');
+    background-position: 100px center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    @include md{
+        background-position: center center;
+        background-size: 80%;
+    }
+
+    div{
+        #home-smart-text{
+            position: relative;
+            z-index: 1;
+            @include section-padding;
+            padding-bottom: 0px;
+            h2{
+                span{
+                    color: $accent;
+                }
+            }
+            @include md{
+                width: 50%;
+            }
+        }
+        #home-smart-img{
+            position: relative;
+            z-index: 100;
+            background-image: url('../img/home/pig-smart.svg');
+            background-position: 65px 0px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 160%;
+            @include md{
+                height: 600px;
+                background-position: 100px -300px;
+                overflow: visible;
+            }
+        }
+    }
+}

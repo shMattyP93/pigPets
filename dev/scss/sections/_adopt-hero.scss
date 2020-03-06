@@ -1,4 +1,5 @@
 #adopt-hero{
+
     @include section-padding;
     display: grid;
     grid-template-areas:
@@ -6,18 +7,27 @@
             "hero-img";
     grid-template-rows: auto 500px;
     @include md{
+        grid-gap: 24px;
         grid-template-areas:
                 "hero-content hero-img";
         grid-template-columns: 40% 60%;
         grid-template-rows: 600px;
-        grid-gap: 24px;
+    }
+    @include lg{
+        background-image: url('../img/adopt/line.svg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        grid-template-areas:
+                ". hero-content hero-img .";
+        grid-template-columns: auto 320px 600px auto;
     }
     div:nth-child(1){
         grid-area: hero-content;
         @include md{
-            justify-content: center;
-            display: flex;
             align-items: center;
+            display: flex;
+            justify-content: center;
         }
         h2{
             @include md{
@@ -28,9 +38,12 @@
         }
     }
     div:nth-child(2){
-        grid-area: hero-img;
         background-image: url('../img/adopt/hero.svg');
-        background-size: fit;
         background-repeat: no-repeat;
+        background-size: fit;
+        grid-area: hero-img;
+        @include lg{
+            background-size: cover;
+        }
     }
 }

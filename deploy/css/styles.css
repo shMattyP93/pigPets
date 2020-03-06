@@ -467,57 +467,77 @@ header {
 /* =============
     Footer
 ============= */
-#expect {
+#adopt-expect {
+  background-image: url("../img/adopt/bkg1.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px 24px;
+  background-size: 40%;
   display: grid;
   grid-template-areas: "expect-img" "expect-h2" "expect-content";
   grid-template-columns: 100%;
   grid-template-rows: auto; }
   @media (min-width: 768px) {
-    #expect {
+    #adopt-expect {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
-    #expect {
-      padding: 100px 40px; } }
+    #adopt-expect {
+      padding: 160px 40px; } }
   @media (min-width: 768px) {
-    #expect {
+    #adopt-expect {
+      background-size: 90%;
       grid-template-areas: "expect-h2 ." "expect-content expect-img";
       grid-template-columns: 40% 60%; } }
-  #expect div:nth-child(1) {
-    grid-area: expect-img;
+  @media (min-width: 992px) {
+    #adopt-expect {
+      background-size: 90%;
+      grid-gap: 0px 80px;
+      grid-template-areas: ". expect-img expect-content ." ". expect-h2 expect-content .";
+      grid-template-columns: auto 400px 400px auto; } }
+  #adopt-expect div:nth-child(1) {
     background-image: url("../img/adopt/heart-line.svg");
-    background-size: contain;
     background-position: left top;
-    background-repeat: no-repeat; }
-    #expect div:nth-child(1) aside {
-      position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: expect-img; }
+    @media (min-width: 992px) {
+      #adopt-expect div:nth-child(1) {
+        background-position: -120px -290px;
+        background-size: 130%; } }
+    #adopt-expect div:nth-child(1) aside {
       background-image: url("../img/adopt/pig1.png");
-      background-size: contain;
+      background-position: right center;
       background-repeat: no-repeat;
+      background-size: contain;
       height: 320px;
-      background-position: right center; }
+      position: relative; }
       @media (min-width: 768px) {
-        #expect div:nth-child(1) aside {
-          height: 480px;
-          background-position: bottom right; } }
-  #expect div:nth-child(2) {
+        #adopt-expect div:nth-child(1) aside {
+          background-position: bottom right;
+          height: 480px; } }
+  #adopt-expect div:nth-child(2) {
     grid-area: expect-h2; }
-    #expect div:nth-child(2) h2 span {
+    @media (min-width: 992px) {
+      #adopt-expect div:nth-child(2) h2 {
+        position: relative;
+        top: -90px; } }
+    #adopt-expect div:nth-child(2) h2 span {
       color: #FBB938; }
-  #expect div:nth-child(3) {
+  #adopt-expect div:nth-child(3) {
     grid-area: expect-content; }
-    #expect div:nth-child(3) li {
+    #adopt-expect div:nth-child(3) li {
       margin: 40px 0px;
       padding-left: 16px; }
       @media (min-width: 768px) {
-        #expect div:nth-child(3) li {
+        #adopt-expect div:nth-child(3) li {
           margin: 60px 0px; } }
       @media (min-width: 992px) {
-        #expect div:nth-child(3) li {
+        #adopt-expect div:nth-child(3) li {
           margin: 80px 0px; } }
-      #expect div:nth-child(3) li h3 {
+      #adopt-expect div:nth-child(3) li h3 {
         color: #18186B; }
-    #expect div:nth-child(3) li:nth-child(-n+4) {
+    #adopt-expect div:nth-child(3) li:nth-child(-n+4) {
       border-left: 8px solid #F0ECD9; }
 
 #adopt-hero {
@@ -530,32 +550,47 @@ header {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
     #adopt-hero {
-      padding: 100px 40px; } }
+      padding: 160px 40px; } }
   @media (min-width: 768px) {
     #adopt-hero {
+      grid-gap: 24px;
       grid-template-areas: "hero-content hero-img";
       grid-template-columns: 40% 60%;
-      grid-template-rows: 600px;
-      grid-gap: 24px; } }
+      grid-template-rows: 600px; } }
+  @media (min-width: 992px) {
+    #adopt-hero {
+      background-image: url("../img/adopt/line.svg");
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      grid-template-areas: ". hero-content hero-img .";
+      grid-template-columns: auto 320px 600px auto; } }
   #adopt-hero div:nth-child(1) {
     grid-area: hero-content; }
     @media (min-width: 768px) {
       #adopt-hero div:nth-child(1) {
-        justify-content: center;
+        align-items: center;
         display: flex;
-        align-items: center; } }
+        justify-content: center; } }
     #adopt-hero div:nth-child(1) h2 span {
       color: #FBB938; }
   #adopt-hero div:nth-child(2) {
-    grid-area: hero-img;
     background-image: url("../img/adopt/hero.svg");
+    background-repeat: no-repeat;
     background-size: fit;
-    background-repeat: no-repeat; }
+    grid-area: hero-img; }
+    @media (min-width: 992px) {
+      #adopt-hero div:nth-child(2) {
+        background-size: cover; } }
 
 #adopt-oinking {
+  background-image: url("../img/adopt/bkg1.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px 24px;
   display: grid;
-  grid-template-areas: "oink-head" "oink-bullets" " oink-cta";
+  grid-template-areas: "oink-head" "oink-bullets" "oink-cta" "oink-img";
   grid-template-columns: 100%;
   grid-template-rows: auto; }
   @media (min-width: 768px) {
@@ -563,36 +598,61 @@ header {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
     #adopt-oinking {
-      padding: 100px 40px; } }
+      padding: 160px 40px; } }
+  @media (min-width: 768px) {
+    #adopt-oinking {
+      grid-gap: 24px; } }
+  @media (min-width: 992px) {
+    #adopt-oinking {
+      grid-gap: 80px;
+      grid-template-areas: ". oink-bullets oink-head ." ". oink-bullets oink-cta ." ". oink-bullets oink-img .";
+      grid-template-columns: auto 300px 500px auto; } }
   #adopt-oinking div:nth-child(1) {
     grid-area: oink-head; }
     #adopt-oinking div:nth-child(1) h2 span {
       color: #A92FAC; }
   #adopt-oinking div:nth-child(2) {
-    margin: 0 auto;
-    grid-area: oink-cta; }
-    #adopt-oinking div:nth-child(2) aside {
-      background-image: url("../img/adopt/pig3.png");
-      background-size: cover;
-      height: 240px;
-      background-position: center;
-      background-repeat: no-repeat; }
+    grid-area: oink-cta;
+    margin: 0 auto; }
   #adopt-oinking div:nth-child(3) {
+    background-image: url("../img/adopt/pig3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: oink-img;
+    height: 240px;
+    padding: 0px; }
+  #adopt-oinking div:nth-child(4) {
     grid-area: oink-bullets; }
-    #adopt-oinking div:nth-child(3) ul li {
+    @media (min-width: 768px) {
+      #adopt-oinking div:nth-child(4) ul {
+        display: grid;
+        grid-gap: 24px;
+        grid-template-areas: "oink1 oink2 oink3";
+        grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 992px) {
+      #adopt-oinking div:nth-child(4) ul {
+        display: grid;
+        grid-template-areas: "oink1" "oink2" "oink3";
+        grid-template-columns: repeat(1, 1fr); } }
+    #adopt-oinking div:nth-child(4) ul li {
       background-repeat: no-repeat;
       background-size: fit;
       padding: 40px 0px 40px 40px; }
-      #adopt-oinking div:nth-child(3) ul li h2 {
-        color: #A92FAC; }
-    #adopt-oinking div:nth-child(3) ul li:nth-child(1) {
-      background-image: url("../img/adopt/size.svg"); }
-    #adopt-oinking div:nth-child(3) ul li:nth-child(2) {
-      background-image: url("../img/adopt/vaccines.svg"); }
-    #adopt-oinking div:nth-child(3) ul li:nth-child(3) {
-      background-image: url("../img/adopt/cost.svg"); }
+      #adopt-oinking div:nth-child(4) ul li h2 {
+        color: #18186B;
+        padding-bottom: 16px; }
+    #adopt-oinking div:nth-child(4) ul li:nth-child(1) {
+      background-image: url("../img/adopt/size.svg");
+      grid-area: oink1; }
+    #adopt-oinking div:nth-child(4) ul li:nth-child(2) {
+      background-image: url("../img/adopt/vaccines.svg");
+      grid-area: oink2; }
+    #adopt-oinking div:nth-child(4) ul li:nth-child(3) {
+      background-image: url("../img/adopt/cost.svg");
+      grid-area: oink3; }
 
-#pig-bio {
+#adopt-pig-bio {
   background-image: url("../img/adopt/bkg-wave.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -603,31 +663,39 @@ header {
   grid-template-columns: 100%;
   grid-template-rows: auto; }
   @media (min-width: 768px) {
-    #pig-bio {
+    #adopt-pig-bio {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
-    #pig-bio {
-      padding: 100px 40px; } }
+    #adopt-pig-bio {
+      padding: 160px 40px; } }
   @media (min-width: 768px) {
-    #pig-bio {
+    #adopt-pig-bio {
       grid-template-areas: "bio-h2 bio-img" "bio-content bio-content";
-      grid-template-columns: 50% 50%; } }
-  #pig-bio div:nth-child(1) {
+      grid-template-columns: 50% 50%;
+      grid-gap: 24px; } }
+  @media (min-width: 992px) {
+    #adopt-pig-bio {
+      grid-template-areas: ". bio-h2 . ." ". bio-img bio-content .";
+      grid-template-columns: auto 300px 600px auto; } }
+  #adopt-pig-bio div:nth-child(1) {
     grid-area: bio-h2;
     margin-bottom: 40px; }
-    #pig-bio div:nth-child(1) h1 {
+    #adopt-pig-bio div:nth-child(1) h1 {
       color: #E5518D;
       line-height: 2.5rem;
       padding-bottom: 0px; }
-    #pig-bio div:nth-child(1) img {
+    #adopt-pig-bio div:nth-child(1) img {
       padding-right: 5px; }
-    #pig-bio div:nth-child(1) h1:nth-child(1) {
+    #adopt-pig-bio div:nth-child(1) h1:nth-child(1) {
       padding-left: 20px; }
-    #pig-bio div:nth-child(1) h1:nth-child(3) {
+    #adopt-pig-bio div:nth-child(1) h1:nth-child(3) {
       padding-left: 120px; }
-  #pig-bio div:nth-child(2) {
+      @media (min-width: 992px) {
+        #adopt-pig-bio div:nth-child(1) h1:nth-child(3) {
+          padding-top: 16px; } }
+  #adopt-pig-bio div:nth-child(2) {
     grid-area: bio-img; }
-    #pig-bio div:nth-child(2) article {
+    #adopt-pig-bio div:nth-child(2) article {
       background-image: url("../img/adopt/pig2.jpg");
       background-size: 100%;
       background-position: cetner center;
@@ -635,71 +703,288 @@ header {
       height: 160px;
       width: 160px; }
       @media (min-width: 768px) {
-        #pig-bio div:nth-child(2) article {
+        #adopt-pig-bio div:nth-child(2) article {
           height: 280px;
           width: 280px; } }
-  #pig-bio div:nth-child(3) {
+      @media (min-width: 992px) {
+        #adopt-pig-bio div:nth-child(2) article {
+          height: 320px;
+          width: 320px;
+          margin-top: 40px; } }
+  #adopt-pig-bio div:nth-child(3) {
     grid-area: bio-content; }
     @media (min-width: 768px) {
-      #pig-bio div:nth-child(3) {
+      #adopt-pig-bio div:nth-child(3) {
         padding: 0px 80px; } }
-    #pig-bio div:nth-child(3) article h2 {
+    #adopt-pig-bio div:nth-child(3) article h2 {
       padding-top: 40px; }
-    #pig-bio div:nth-child(3) article p {
+    #adopt-pig-bio div:nth-child(3) article p {
       padding-top: 24px; }
-      #pig-bio div:nth-child(3) article p span {
+      #adopt-pig-bio div:nth-child(3) article p span {
         font-weight: 800; }
-    #pig-bio div:nth-child(3) article aside button {
+    #adopt-pig-bio div:nth-child(3) article aside button {
       display: flex;
       margin: 16px 0px; }
       @media (min-width: 768px) {
-        #pig-bio div:nth-child(3) article aside button {
+        #adopt-pig-bio div:nth-child(3) article aside button {
           display: inline-block;
           margin: 40px 16px 0px 0px; } }
 
-#testimonials {
+#adopt-testimonials {
   padding: 60px 24px;
   display: grid;
   grid-template-areas: "test-h2" "test-content";
   grid-gap: 24px; }
   @media (min-width: 768px) {
-    #testimonials {
+    #adopt-testimonials {
       padding: 80px 40px; } }
   @media (min-width: 992px) {
-    #testimonials {
-      padding: 100px 40px; } }
+    #adopt-testimonials {
+      padding: 160px 40px; } }
   @media (min-width: 768px) {
-    #testimonials {
+    #adopt-testimonials {
       grid-template-areas: "test-h2 test-content";
       grid-template-columns: 40% 60%; } }
-  #testimonials h2 {
+  @media (min-width: 992px) {
+    #adopt-testimonials {
+      grid-template-areas: ". test-h2 ." ". test-content .";
+      grid-template-columns: auto 900px auto; } }
+  #adopt-testimonials h2 {
     grid-area: test-h2; }
     @media (min-width: 768px) {
-      #testimonials h2 {
+      #adopt-testimonials h2 {
         padding-top: 160px; } }
-    #testimonials h2 span {
+    @media (min-width: 992px) {
+      #adopt-testimonials h2 {
+        text-align: center;
+        margin: 0px 80px; } }
+    #adopt-testimonials h2 span {
       color: #E5518D; }
-  #testimonials ul {
+  #adopt-testimonials ul {
     grid-area: test-content; }
-    #testimonials ul li {
+    @media (min-width: 992px) {
+      #adopt-testimonials ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "test1 test2 test3";
+        grid-gap: 24px; } }
+    #adopt-testimonials ul li {
       position: relative;
       background-color: #F0ECD9;
       border-radius: 8px;
       padding: 24px;
       margin: 0px 0px 48px 32px; }
       @media (min-width: 768px) {
-        #testimonials ul li {
+        #adopt-testimonials ul li {
           margin: 0px 32px 48px 32px; } }
-      #testimonials ul li h1 {
+      @media (min-width: 992px) {
+        #adopt-testimonials ul li {
+          margin: 0px 8px 48px 8px; } }
+      #adopt-testimonials ul li h1 {
         color: #E5518D;
         font-size: 5rem;
         position: absolute;
         left: -20px;
         top: -20px; }
-      #testimonials ul li p {
+      #adopt-testimonials ul li p {
         padding-bottom: 24px; }
-        #testimonials ul li p span {
-          font-weight: 700; }
-      #testimonials ul li h3 {
+        #adopt-testimonials ul li p span {
+          font-weight: 700;
+          color: #18186B; }
+      #adopt-testimonials ul li h3 {
         font-size: 1rem;
         color: #18186B; }
+    #adopt-testimonials ul li:nth-child(1) {
+      grid-area: test1; }
+    #adopt-testimonials ul li:nth-child(2) {
+      grid-area: test2; }
+    #adopt-testimonials ul li:nth-child(3) {
+      grid-area: test3; }
+
+#home-adoption {
+  background-image: url("../img/home/pig-footer.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover; }
+  #home-adoption article {
+    padding: 80px 80px; }
+    #home-adoption article h1 {
+      color: #ffffff; }
+
+#home-chill > div:nth-child(1) {
+  display: grid;
+  grid-template-areas: "home-chill-img" "home-chill-text";
+  grid-template-rows: repeat(2, auto); }
+  @media (min-width: 768px) {
+    #home-chill > div:nth-child(1) {
+      grid-template-areas: "home-chill-img home-chill-img" ". home-chill-text";
+      grid-template-columns: 40% 60%;
+      grid-template-rows: repeat(2, 400px); } }
+  #home-chill > div:nth-child(1) #home-chill-text {
+    grid-area: home-chill-text;
+    padding: 60px 24px;
+    display: flex;
+    padding-bottom: 0px; }
+    @media (min-width: 768px) {
+      #home-chill > div:nth-child(1) #home-chill-text {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-chill > div:nth-child(1) #home-chill-text {
+        padding: 160px 40px; } }
+    #home-chill > div:nth-child(1) #home-chill-text h2 span {
+      color: #7297FF; }
+  #home-chill > div:nth-child(1) #home-chill-img {
+    grid-area: home-chill-img;
+    background-image: url("../img/home/pig-pink.png");
+    background-position: -300px 120px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px; }
+    @media (min-width: 768px) {
+      #home-chill > div:nth-child(1) #home-chill-img {
+        background-size: cover;
+        background-position: -300px 0px;
+        height: 400px;
+        margin-top: 160px; } }
+  #home-chill > div:nth-child(1) #home-chill-divider {
+    height: 0px; }
+
+#home-emotion {
+  display: grid;
+  grid-template-areas: "home-emotion-content" "home-emotion-img"; }
+  #home-emotion div #home-emotion-text {
+    grid-area: home-emotion-text;
+    padding: 60px 24px;
+    padding-bottom: 0px; }
+    @media (min-width: 768px) {
+      #home-emotion div #home-emotion-text {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-emotion div #home-emotion-text {
+        padding: 160px 40px; } }
+    #home-emotion div #home-emotion-text h2 span {
+      color: #E5518D; }
+  #home-emotion div #home-emotion-img {
+    grid-area: home-emotion-img;
+    background-image: url("../img/home/heart-group.svg");
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+#home-hero {
+  background-image: url("../img/home/hero-bkg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #home-hero div {
+    display: grid;
+    grid-template-areas: "hero-img" "hero-content"; }
+    @media (min-width: 768px) {
+      #home-hero div {
+        grid-template-areas: "hero-content hero-img";
+        grid-template-columns: 55% 45%; } }
+    #home-hero div article {
+      grid-area: hero-content;
+      padding: 60px 24px; }
+      @media (min-width: 768px) {
+        #home-hero div article {
+          padding: 80px 40px; } }
+      @media (min-width: 992px) {
+        #home-hero div article {
+          padding: 160px 40px; } }
+      #home-hero div article h1 span {
+        color: #E5518D; }
+    #home-hero div div {
+      grid-area: hero-img;
+      background-image: url("../img/home/hero-pig.png");
+      background-position: -70px bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 500px; }
+      @media (min-width: 768px) {
+        #home-hero div div {
+          background-position: left bottom;
+          padding-top: 80px; } }
+
+#home-lovestory {
+  padding: 60px 24px; }
+  @media (min-width: 768px) {
+    #home-lovestory {
+      padding: 80px 40px; } }
+  @media (min-width: 992px) {
+    #home-lovestory {
+      padding: 160px 40px; } }
+  #home-lovestory div h2 span {
+    color: #FBB938; }
+  #home-lovestory div #home-lovestory-text {
+    padding-bottom: 0px; }
+  #home-lovestory div #home-lovestory-img {
+    background-image: url("../img/home/pig-lovestory.jpg");
+    background-position: center center;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: 80%; }
+
+#home-quote {
+  margin: 100px 0px; }
+  #home-quote div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/home/bkg2.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    padding: 60px 24px; }
+    @media (min-width: 768px) {
+      #home-quote div {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-quote div {
+        padding: 160px 40px; } }
+    #home-quote div article h1 {
+      padding-bottom: 8px; }
+      #home-quote div article h1 span {
+        color: #E5518D; }
+      #home-quote div article h1 img {
+        padding-right: 8px; }
+
+#home-smart {
+  background-image: url("../img/home/bkg-blob1.svg");
+  background-position: 100px center;
+  background-repeat: no-repeat;
+  background-size: 120%; }
+  @media (min-width: 768px) {
+    #home-smart {
+      background-position: center center;
+      background-size: 80%; } }
+  #home-smart div #home-smart-text {
+    position: relative;
+    z-index: 1;
+    padding: 60px 24px;
+    padding-bottom: 0px; }
+    @media (min-width: 768px) {
+      #home-smart div #home-smart-text {
+        padding: 80px 40px; } }
+    @media (min-width: 992px) {
+      #home-smart div #home-smart-text {
+        padding: 160px 40px; } }
+    #home-smart div #home-smart-text h2 span {
+      color: #FBB938; }
+    @media (min-width: 768px) {
+      #home-smart div #home-smart-text {
+        width: 50%; } }
+  #home-smart div #home-smart-img {
+    position: relative;
+    z-index: 100;
+    background-image: url("../img/home/pig-smart.svg");
+    background-position: 65px 0px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 160%; }
+    @media (min-width: 768px) {
+      #home-smart div #home-smart-img {
+        height: 600px;
+        background-position: 100px -300px;
+        overflow: visible; } }
