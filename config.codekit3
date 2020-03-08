@@ -51,6 +51,160 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/benefits/adopt/benefits-adopt-divider.png": {
+		"ft": 32768,
+		"iS": 16335,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/adopt/benefits-adopt-divider.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/adopt/benefits-adopt-main.png": {
+		"ft": 32768,
+		"iS": 1863948,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/adopt/benefits-adopt-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/easy/benefits-easy.png": {
+		"ft": 32768,
+		"iS": 383603,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/easy/benefits-easy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-1.png": {
+		"ft": 32768,
+		"iS": 119983,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-2.png": {
+		"ft": 32768,
+		"iS": 183114,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-3.png": {
+		"ft": 32768,
+		"iS": 29984,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-main.png": {
+		"ft": 32768,
+		"iS": 266812,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/hero/benefits-hero-bg.png": {
+		"ft": 32768,
+		"iS": 17698,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/hero/benefits-hero-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/hero/benefits-hero.png": {
+		"ft": 32768,
+		"iS": 528809,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/hero/benefits-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/quote/benefits-quote-background-line.png": {
+		"ft": 32768,
+		"iS": 164676,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/quote/benefits-quote-background-line.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/quote/benefits-quote-background.png": {
+		"ft": 32768,
+		"iS": 89062,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/quote/benefits-quote-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/smartest/benefits-smartest-bg.png": {
+		"ft": 32768,
+		"iS": 103299,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/smartest/benefits-smartest-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/smartest/benefits-smartest-pig.png": {
+		"ft": 32768,
+		"iS": 167236,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/smartest/benefits-smartest-pig.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/witt/benefits-witt-bg.png": {
+		"ft": 32768,
+		"iS": 63094,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/witt/benefits-witt-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/home/pigpet-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -137,8 +291,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/benefits.html",
-		"oF": 2
+		"oAP": "/dev/benefits.html",
+		"oF": 0
 		},
 	"/dev/care.kit": {
 		"cB": 0,
