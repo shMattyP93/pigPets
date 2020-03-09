@@ -5,15 +5,22 @@
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
-    // display: flex;
-    // align-items: center;
+    @include lg{
+        height: 600px;
+        background-position: center center;
+    }
+    display: flex;
+    align-items: center;
+
 
     article{
         padding: 80px 80px;
+        @include lg{
+            width: 50%;
+        }
 
         h1{
             color: $white;
-
         }
     }
 }
