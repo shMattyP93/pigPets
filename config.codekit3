@@ -51,6 +51,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/adopt/bkg-wave 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/bkg-wave 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/bkg-wave.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -71,6 +81,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/adopt/circles 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/circles 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/circles.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -81,11 +101,41 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/adopt/cost 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/cost 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/cost.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/adopt/cost.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/adopt/heart 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/heart 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/adopt/heart-line 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/heart-line 2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -111,11 +161,41 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/adopt/heart3 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/heart3 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/heart3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/adopt/heart3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/adopt/hero 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/hero 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/adopt/hero 3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/hero 3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -131,6 +211,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/adopt/line 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/line 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/line.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -141,6 +231,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/adopt/pig1 2.png": {
+		"ft": 32768,
+		"iS": 86757,
+		"oA": 0,
+		"oAP": "/deploy/img/adopt/pig1 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/adopt/pig1.png": {
 		"ft": 32768,
 		"iS": 86757,
@@ -150,6 +251,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/adopt/pig2 2.jpg": {
+		"ft": 16384,
+		"iS": 939683,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/adopt/pig2 2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/adopt/pig2.jpg": {
@@ -163,6 +275,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/adopt/pig3 2.png": {
+		"ft": 32768,
+		"iS": 341366,
+		"oA": 0,
+		"oAP": "/deploy/img/adopt/pig3 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/adopt/pig3.png": {
 		"ft": 32768,
 		"iS": 341366,
@@ -174,11 +297,31 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/adopt/size 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/size 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/adopt/size.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/adopt/size.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/adopt/vaccines 2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/adopt/vaccines 2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -654,6 +797,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_adopt-expect 2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-expect 2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_adopt-expect.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -663,6 +819,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_adopt-expect.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_adopt-hero 2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-hero 2.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -680,6 +849,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_adopt-oinking 2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-oinking 2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_adopt-oinking.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -693,6 +875,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_adopt-pig-bio 2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-pig-bio 2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_adopt-pig-bio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -702,6 +897,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_adopt-pig-bio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_adopt-testimonials 2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_adopt-testimonials 2.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

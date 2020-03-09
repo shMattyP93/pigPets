@@ -3,6 +3,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    @include lg{
+        height: 100vh;
+    }
 
     div{
         display: grid;
@@ -13,6 +16,11 @@
             grid-template-areas:
                     "hero-content hero-img";
             grid-template-columns: 55% 45%;
+        }
+        @include lg{
+            grid-template-areas:
+                    ". hero-content hero-img .";
+            grid-template-columns: auto 600px 600px auto;
         }
         article{
             grid-area: hero-content;
