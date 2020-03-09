@@ -7,8 +7,15 @@
         background-position: center center;
         background-size: 80%;
     }
+    @include lg{
+        display: grid;
+        grid-template-areas:
+                ". home-smart-grid .";
+        grid-template-columns: auto 1200px auto;
+    }
 
     div{
+        grid-area: home-smart-grid;
         #home-smart-text{
             position: relative;
             z-index: 1;
@@ -21,6 +28,9 @@
             }
             @include md{
                 width: 50%;
+            }
+            @include lg{
+                padding-left: 100px;
             }
         }
         #home-smart-img{
@@ -36,6 +46,12 @@
                 background-position: 100px -300px;
                 overflow: visible;
             }
+            @include lg{
+                height: 600px;
+                background-size: 70%;
+                background-position: bottom center;
+                overflow: visible;
+            }
         }
     }
-}
+    }
