@@ -199,11 +199,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/care/blue-heart.svg",
-	"/deploy/img/home/bkg-blob1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/bkg-blob1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -258,7 +253,64 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/care/care-two-accent.svg",
-=======
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-two-bg.jpg": {
+		"ft": 16384,
+		"iS": 131718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-two-img01.jpg": {
+		"ft": 16384,
+		"iS": 361434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-img02.jpg": {
+		"ft": 16384,
+		"iS": 306128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/home/bkg-blob1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/bkg-blob1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/home/bkg2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -309,22 +361,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/care-two-bg.jpg": {
-		"ft": 16384,
-		"iS": 131718,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/care/care-two-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/care/care-two-bg.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/care/care-two-bg.svg",
 	"/deploy/img/home/hero-group2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -376,12 +412,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/care-two-img01.jpg": {
-		"ft": 16384,
-		"iS": 361434,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/care/care-two-img01.jpg",
 	"/deploy/img/home/pig-footer.jpg": {
 		"ft": 16384,
 		"iS": 154579,
@@ -393,12 +423,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/care/care-two-img02.jpg": {
-		"ft": 16384,
-		"iS": 306128,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/care/care-two-img02.jpg",
 	"/deploy/img/home/pig-lovestory.jpg": {
 		"ft": 16384,
 		"iS": 57629,
@@ -431,7 +455,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
->>>>>>> development
 	"/deploy/img/home/pigpet-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1407,7 +1430,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 8193,
+	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1675,7 +1698,7 @@
 			},
 		"new-parens": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "'always'"
 			},
 		"newline-per-chained-call": {
 			"active": 0,
