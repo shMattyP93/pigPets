@@ -337,6 +337,287 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/benefits/adopt/benefits-adopt-divider.png": {
+		"ft": 32768,
+		"iS": 16335,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/adopt/benefits-adopt-divider.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/adopt/benefits-adopt-main.png": {
+		"ft": 32768,
+		"iS": 1863948,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/adopt/benefits-adopt-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/easy/benefits-easy.png": {
+		"ft": 32768,
+		"iS": 383603,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/easy/benefits-easy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-1.png": {
+		"ft": 32768,
+		"iS": 119983,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-2.png": {
+		"ft": 32768,
+		"iS": 183114,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-3.png": {
+		"ft": 32768,
+		"iS": 29984,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/emotion/benefits-emotion-main.png": {
+		"ft": 32768,
+		"iS": 266812,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/emotion/benefits-emotion-main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/hero/benefits-hero-bg.png": {
+		"ft": 32768,
+		"iS": 17698,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/hero/benefits-hero-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/hero/benefits-hero.png": {
+		"ft": 32768,
+		"iS": 528809,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/hero/benefits-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/quote/benefits-quote-background-line.png": {
+		"ft": 32768,
+		"iS": 164676,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/quote/benefits-quote-background-line.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/quote/benefits-quote-background.png": {
+		"ft": 32768,
+		"iS": 89062,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/quote/benefits-quote-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/smartest/benefits-smartest-bg.png": {
+		"ft": 32768,
+		"iS": 103299,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/smartest/benefits-smartest-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/smartest/benefits-smartest-pig.png": {
+		"ft": 32768,
+		"iS": 167236,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/smartest/benefits-smartest-pig.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/benefits/witt/benefits-witt-bg.png": {
+		"ft": 32768,
+		"iS": 63094,
+		"oA": 0,
+		"oAP": "/deploy/img/benefits/witt/benefits-witt-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/blue-heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/blue-heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-hero.jpg": {
+		"ft": 16384,
+		"iS": 1202344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-dt.png": {
+		"ft": 32768,
+		"iS": 262960,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-mb.png": {
+		"ft": 32768,
+		"iS": 16750,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-mb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-three-tb.png": {
+		"ft": 32768,
+		"iS": 20807,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-three-tb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-accent.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-accent.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-two-bg.jpg": {
+		"ft": 16384,
+		"iS": 131718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/care-two-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/care-two-img01.jpg": {
+		"ft": 16384,
+		"iS": 361434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/care-two-img02.jpg": {
+		"ft": 16384,
+		"iS": 306128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care-two-img02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/care/four-blob.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/four-blob.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/pig-bath.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/pig-bath.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/home/bkg-blob1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -443,6 +724,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/home/mask.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/pig-burger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/pig-burger.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -604,6 +895,14 @@
 		"oAP": "/dev/header.html",
 		"oF": 0
 		},
+	"/dev/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/index.html",
+		"oF": 0
+		},
 	"/dev/js/adopt.js": {
 		"bF": 0,
 		"ft": 64,
@@ -659,6 +958,19 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/scss/base/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/base/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -668,6 +980,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/base/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/base/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/components/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -694,6 +1032,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/helpers/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/helpers/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -854,6 +1218,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_benefits.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_benefits.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_care-four.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_care-four.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_care-hero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -889,19 +1279,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_care-two.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_care.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_care.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -994,6 +1371,19 @@
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_home-smart.css",
 		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		}
