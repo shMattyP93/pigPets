@@ -7,41 +7,55 @@
         height: 100vh;
     }
 
-    div{
-        display: grid;
-        grid-template-areas:
-                "hero-img" "hero-content";
 
-        @include md{
-            grid-template-areas:
-                    "hero-content hero-img";
-            grid-template-columns: 55% 45%;
-        }
+    >div{
+
+
+
         @include lg{
-            grid-template-areas:
-                    ". hero-content hero-img .";
-            grid-template-columns: auto 600px 600px auto;
+            display: flex;
+            justify-content: center;
         }
-        article{
-            grid-area: hero-content;
-            @include section-padding;
-            h1{
-                span{
-                    color: $hot;
+
+        >div{
+            display: grid;
+            grid-template-areas:
+                    "hero-img" "hero-content";
+
+            @include md{
+                grid-template-areas:
+                        "hero-content hero-img";
+                grid-template-columns: 55% 45%;
+            }
+
+            @include lg{
+            width: 90%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+            article{
+                @include section-padding;
+                h1{
+                    span{
+                        color: $hot;
+                    }
                 }
             }
-        }
-        div{
-            grid-area: hero-img;
-            background-image: url('../img/home/hero-pig.png');
-            background-position: -70px bottom;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 500px;
-            @include md{
-                background-position: left bottom;
-                padding-top: 80px;
+            div{
+                background-image: url('../img/home/hero-pig.png');
+                background-position: -70px bottom;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 500px;
+                @include md{
+                    background-position: left bottom;
+                    padding-top: 80px;
+                }
             }
+
         }
+
     }
 }

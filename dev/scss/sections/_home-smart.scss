@@ -11,23 +11,29 @@
         display: grid;
         grid-template-areas:
                 ". home-smart-grid .";
-        grid-template-columns: auto 1200px auto;
     }
 
     div{
         grid-area: home-smart-grid;
+        max-width: 1200px;
         #home-smart-text{
             position: relative;
             z-index: 1;
             @include section-padding;
             padding-bottom: 0px;
+            max-width: rem-calc(320px);
             h2{
                 span{
                     color: $accent;
                 }
             }
+
+            p{
+                max-width: rem-calc(245px);
+            }
             @include md{
                 width: 50%;
+
             }
             @include lg{
                 padding-left: 100px;
@@ -40,11 +46,12 @@
             background-position: 65px 0px;
             height: 400px;
             background-repeat: no-repeat;
-            background-size: 160%;
+            background-size: auto 100%;
             @include md{
                 height: 600px;
-                background-position: 100px -300px;
+                background-position: -150% top;
                 overflow: visible;
+                margin-top: -300px;
             }
             @include lg{
                 height: 600px;
