@@ -494,7 +494,7 @@ header {
       grid-template-columns: 40% 60%; } }
   @media (min-width: 992px) {
     #adopt-expect {
-      background-size: 90%;
+      background-size: 70%;
       grid-gap: 0px 80px;
       grid-template-areas: ". expect-img expect-content ." ". expect-h2 expect-content .";
       grid-template-columns: auto 400px 400px auto; } }
@@ -557,8 +557,8 @@ header {
   @media (min-width: 768px) {
     #adopt-hero {
       grid-gap: 24px;
-      grid-template-areas: "hero-content hero-img";
-      grid-template-columns: 40% 60%;
+      grid-template-areas: ". hero-content hero-img .";
+      grid-template-columns: auto 35% 50% auto;
       grid-template-rows: 600px; } }
   @media (min-width: 992px) {
     #adopt-hero {
@@ -566,8 +566,8 @@ header {
       background-position: bottom;
       background-repeat: no-repeat;
       background-size: contain;
-      grid-template-areas: ". hero-content hero-img .";
-      grid-template-columns: auto 320px 600px auto; } }
+      grid-template-areas: ". hero-content . hero-img .";
+      grid-template-columns: auto 320px 24px 500px auto; } }
   #adopt-hero div:nth-child(1) {
     grid-area: hero-content; }
     @media (min-width: 768px) {
@@ -575,16 +575,16 @@ header {
         align-items: center;
         display: flex;
         justify-content: center; } }
-    #adopt-hero div:nth-child(1) h2 span {
+    #adopt-hero div:nth-child(1) h1 span {
       color: #FBB938; }
   #adopt-hero div:nth-child(2) {
     background-image: url("../img/adopt/hero.svg");
     background-repeat: no-repeat;
     background-size: fit;
     grid-area: hero-img; }
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       #adopt-hero div:nth-child(2) {
-        background-size: cover; } }
+        background-size: contain; } }
 
 #adopt-oinking {
   background-image: url("../img/adopt/bkg1.svg");
@@ -609,7 +609,9 @@ header {
     #adopt-oinking {
       grid-gap: 80px;
       grid-template-areas: ". oink-bullets oink-head ." ". oink-bullets oink-cta ." ". oink-bullets oink-img .";
-      grid-template-columns: auto 300px 500px auto; } }
+      grid-template-columns: auto 300px 500px auto;
+      background-size: 50%;
+      background-position: bottom center; } }
   #adopt-oinking div:nth-child(1) {
     grid-area: oink-head; }
     #adopt-oinking div:nth-child(1) h2 span {
