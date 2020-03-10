@@ -4,516 +4,115 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "4DBA808C-6DE8-4D05-98BB-2FF10AF67C62"
+		"uuidString": "524441AD-BD14-48C8-8653-25222DB17A15"
 		}
 	],
 "creatorBuild": "31934",
 "files": {
-	"/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitattributes",
-		"oF": 0
-		},
-	"/deploy/adopt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/adopt.html",
-		"oF": 0
-		},
-	"/deploy/benefits.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/benefits.html",
-		"oF": 0
-		},
-	"/deploy/care.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/care.html",
-		"oF": 0
-		},
-	"/deploy/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/deploy/img/adopt/bkg-wave 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/bkg-wave 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/bkg-wave.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/bkg-wave.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/bkg1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/bkg1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/circles 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/circles 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/circles.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/circles.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/cost 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/cost 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/cost.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/cost.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart-line 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart-line 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart-line.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart-line.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart3 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart3 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/heart3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/heart3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/hero 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/hero 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/hero 3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/hero 3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/hero.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/hero.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/line 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/line 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/line.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/line.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/pig1 2.png": {
-		"ft": 32768,
-		"iS": 86757,
-		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig1 2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/adopt/pig1.png": {
-		"ft": 32768,
-		"iS": 86757,
-		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/adopt/pig2 2.jpg": {
-		"ft": 16384,
-		"iS": 939683,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig2 2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/adopt/pig2.jpg": {
-		"ft": 16384,
-		"iS": 175614,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/deploy/img/adopt/pig3 2.png": {
-		"ft": 32768,
-		"iS": 341366,
-		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig3 2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/adopt/pig3.png": {
-		"ft": 32768,
-		"iS": 341366,
-		"oA": 0,
-		"oAP": "/deploy/img/adopt/pig3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/adopt/size 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/size 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/size.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/size.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/vaccines 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/vaccines 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/adopt/vaccines.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/adopt/vaccines.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/home/pigpet-logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/pigpet-logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 0
-		},
-	"/deploy/js/adopt-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/adopt-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/benefits-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/benefits-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/care-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/care-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/home-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/home-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/adopt.kit": {
+	"/adopt.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/adopt.html",
+		"oAP": "/adopt.html",
 		"oF": 0
 		},
-	"/dev/benefits.kit": {
+	"/benefits.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/benefits.html",
+		"oAP": "/benefits.html",
 		"oF": 0
 		},
-	"/dev/care.kit": {
+	"/care.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/care.html",
-		"oF": 2
-		},
-	"/dev/footer.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/footer.html",
+		"oAP": "/care.html",
 		"oF": 0
 		},
-	"/dev/header.kit": {
+	"/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/header.html",
+		"oAP": "/footer.html",
 		"oF": 0
 		},
-	"/dev/index.kit": {
+	"/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/header.html",
+		"oF": 0
+		},
+	"/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 2
+		"oAP": "/index.html",
+		"oF": 0
 		},
-	"/dev/js/adopt.js": {
+	"/js/adopt.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/adopt-min.js",
-		"oF": 2,
+		"oAP": "/js/adopt-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/benefits.js": {
+	"/js/benefits.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/benefits-min.js",
-		"oF": 2,
+		"oAP": "/js/benefits-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/care.js": {
+	"/js/care.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/care-min.js",
-		"oF": 2,
+		"oAP": "/js/care-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/home.js": {
+	"/js/home.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/home-min.js",
-		"oF": 2,
+		"oAP": "/js/home-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/scripts.js": {
+	"/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
+		"oAP": "/js/scripts-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/scss/base/_base.scss": {
+	"/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -521,12 +120,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_base.css",
+		"oAP": "/scss/base/_base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_normalize.scss": {
+	"/scss/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -534,12 +133,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_normalize.css",
+		"oAP": "/scss/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_typography.scss": {
+	"/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -547,12 +146,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_typography.css",
+		"oAP": "/scss/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_buttons.scss": {
+	"/scss/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -560,12 +159,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_buttons.css",
+		"oAP": "/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_forms.scss": {
+	"/scss/components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -573,12 +172,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
+		"oAP": "/scss/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_navigation.scss": {
+	"/scss/components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -586,12 +185,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
+		"oAP": "/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/helpers/_mixins.scss": {
+	"/scss/helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -599,12 +198,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oAP": "/scss/helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/helpers/_variables.scss": {
+	"/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -612,12 +211,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
+		"oAP": "/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/layout/_footer.scss": {
+	"/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -625,12 +224,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
+		"oAP": "/scss/layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/layout/_header.scss": {
+	"/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -638,12 +237,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
+		"oAP": "/scss/layout/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-expect 2.scss": {
+	"/scss/sections/_adopt.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -651,12 +250,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-expect 2.css",
+		"oAP": "/scss/sections/_adopt.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-expect.scss": {
+	"/scss/sections/_benefits.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -664,12 +263,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-expect.css",
+		"oAP": "/scss/sections/_benefits.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-hero 2.scss": {
+	"/scss/sections/_care.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -677,12 +276,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-hero 2.css",
+		"oAP": "/scss/sections/_care.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-hero.scss": {
+	"/scss/sections/_home.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -690,226 +289,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-hero.css",
+		"oAP": "/scss/sections/_home.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_adopt-oinking 2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-oinking 2.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_adopt-oinking.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-oinking.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_adopt-pig-bio 2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-pig-bio 2.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_adopt-pig-bio.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-pig-bio.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_adopt-testimonials 2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-testimonials 2.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_adopt-testimonials.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_adopt-testimonials.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_benefits.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_benefits.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_care-hero.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_care-hero.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_care-three.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_care-three.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_care-two.scss": {
-		"oAP": "/dev/scss/sections/_care-two.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-adoption.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-adoption.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-chill.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-chill.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-emotion.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-emotion.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-hero.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-hero.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-lovestory.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-lovestory.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-quote.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-quote.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_home-smart.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_home-smart.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/styles.scss": {
+	"/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -917,8 +302,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
+		"oAP": "/scss/styles.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		}
@@ -928,10 +313,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 603310423.81148803,
-	"displayValue": "pigPets",
+	"creationDate": 605057300.13498604,
+	"displayValue": "dev",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-brick",
+	"iconImageName": "brackets-cafe",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
