@@ -1,10 +1,17 @@
 #home-emotion{
-    display: grid;
-    grid-template-areas:
-            "home-emotion-content"
-            "home-emotion-img";
-
+    @include lg{
+        display: grid;
+        grid-template-areas:
+                ". home-emotion-grid .";
+        grid-template-columns: auto 1200px auto;
+    }
     div{
+        grid-area: home-emotion-grid;
+        display: grid;
+        grid-template-areas:
+                "home-emotion-img home-emotion-text";
+        grid-template-columns: 50% 50%;
+
         #home-emotion-text{
             grid-area: home-emotion-text;
             @include section-padding;
@@ -14,6 +21,9 @@
                     color: $hot;
                 }
             }
+            @include lg{
+                padding-left: 0px;
+            }
         }
         #home-emotion-img{
             grid-area: home-emotion-img;
@@ -22,6 +32,12 @@
             height: 400px;
             background-repeat: no-repeat;
             background-size: contain;
+            @include lg{
+                background-position: center center;
+                height: 600px;
+
+            }
         }
     }
-}
+
+    }
