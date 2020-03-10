@@ -598,6 +598,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/care/four-blob.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/four-blob.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/care/pig-bath.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/care/pig-bath.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/home/bkg-blob1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -704,6 +724,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/home/mask.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/pig-burger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/pig-burger.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1344,6 +1374,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dev/scss/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1352,8 +1392,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		}

@@ -2036,3 +2036,57 @@ header {
       padding-left: 40px; }
       #care-three #ouch img, #care-three #eyes img {
         left: 25px; } }
+
+#care-four {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  padding-bottom: 50px;
+  background-image: url("../img/care/four-blob.svg"); }
+  @media (min-width: 768px) {
+    #care-four {
+      grid-template-columns: 30% 60%;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+      padding-top: 150px;
+      grid-gap: 50px;
+      text-align: left; } }
+  #care-four .left img {
+    padding-top: 50px; }
+    @media (min-width: 768px) {
+      #care-four .left img {
+        position: absolute;
+        left: -200px;
+        height: 50%;
+        top: 25%;
+        z-index: 1; } }
+    @media (min-width: 1200px) {
+      #care-four .left img {
+        height: 65%; } }
+  @media (min-width: 768px) {
+    #care-four .right h2 {
+      padding-right: 50px; } }
+  #care-four .right h2 span {
+    color: #7297FF; }
+  #care-four .right .content-container {
+    padding: 0 100px;
+    position: relative; }
+    @media (min-width: 768px) {
+      #care-four .right .content-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 50px;
+        z-index: 10;
+        padding: 0 50px 0 0; } }
+    #care-four .right .content-container div {
+      padding-top: 50px;
+      text-align: left;
+      position: relative; }
+      #care-four .right .content-container div img {
+        position: absolute;
+        top: 35px;
+        left: -20px;
+        z-index: -1; }
+      #care-four .right .content-container div h3 {
+        z-index: 150; }
