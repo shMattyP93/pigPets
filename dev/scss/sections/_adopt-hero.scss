@@ -9,8 +9,8 @@
     @include md{
         grid-gap: 24px;
         grid-template-areas:
-                "hero-content hero-img";
-        grid-template-columns: 40% 60%;
+                ". hero-content hero-img .";
+        grid-template-columns: auto 35% 50% auto;
         grid-template-rows: 600px;
     }
     @include lg{
@@ -19,8 +19,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         grid-template-areas:
-                ". hero-content hero-img .";
-        grid-template-columns: auto 320px 600px auto;
+                ". hero-content . hero-img .";
+        grid-template-columns: auto 320px 24px 500px auto;
     }
     div:nth-child(1){
         grid-area: hero-content;
@@ -29,7 +29,7 @@
             display: flex;
             justify-content: center;
         }
-        h2{
+        h1{
             @include md{
             }
             span{
@@ -42,8 +42,8 @@
         background-repeat: no-repeat;
         background-size: fit;
         grid-area: hero-img;
-        @include lg{
-            background-size: cover;
+        @include md{
+            background-size: contain;
         }
     }
 }

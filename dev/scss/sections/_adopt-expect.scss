@@ -22,7 +22,7 @@
     }
 
     @include lg{
-        background-size: 90%;
+        background-size: 70%;
         grid-gap: 0px 80px;
         grid-template-areas:
                 ". expect-img expect-content ."
