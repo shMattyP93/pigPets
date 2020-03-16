@@ -598,6 +598,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/home/75AA313F01194C67.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/75AA313F01194C67.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/home/bkg-blob1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -608,15 +619,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/bkg2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/bkg2.svg",
+	"/deploy/img/home/bkg2.png": {
+		"ft": 32768,
+		"iS": 89062,
+		"oA": 0,
+		"oAP": "/deploy/img/home/bkg2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
 	"/deploy/img/home/heart-group.svg": {
 		"ft": 2097152,
@@ -704,6 +716,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/home/mask.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/menu-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/menu-bg.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -830,16 +852,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/adopt.html",
-		"oF": 0
-		},
-	"/dev/benefits.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/benefits.html",
-		"oF": 0
+		"oAP": "/deploy/adopt.html",
+		"oF": 2
 		},
 	"/dev/benefits.kit": {
 		"cB": 0,
@@ -922,6 +936,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/home-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/navigation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/navigation-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

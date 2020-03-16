@@ -1,0 +1,1 @@
+var isVisible=!1,$burger=$("#menu-burger"),$menu=$("#menu-mobile-list");function menuToggle(){$menu.toggleClass("menu-mobile-list-activate"),$burger.toggleClass("menu-mobile-burger-activate")}$burger.on("click",menuToggle);

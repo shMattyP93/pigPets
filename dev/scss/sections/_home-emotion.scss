@@ -18,8 +18,21 @@
             @include section-padding;
             padding-bottom: 0px;
             h2{
+                max-width: 350px;
+
+                @include lg{
+                    max-width: 450px;
+
+                }
                 span{
                     color: $hot;
+                }
+            }
+
+            p{
+                max-width: 350px;
+                @include lg{
+                    max-width: 400px;
                 }
             }
 
@@ -48,7 +61,7 @@
             @include lg{
                 background-position: left center;
                 height: 600px;
-                
+
 
             }
         }

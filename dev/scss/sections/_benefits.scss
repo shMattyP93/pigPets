@@ -2,7 +2,6 @@
     #benefits-hero {
         // background-color: red;
         position: relative;
-        top: -93px;
 
         .benefit-wrapper {
             display: grid;
@@ -132,13 +131,11 @@
                             bottom: 0;
                             -webkit-animation: slide 25s infinite alternate;
                             animation: slide 25s infinite alternate;
-
-                            @include md{
+                            @include md {
                                 -webkit-animation: slide 12s infinite alternate;
                                 animation: slide 12s infinite alternate;
                             }
-
-                            @include lg{
+                            @include lg {
                                 -webkit-animation: slide 5s infinite alternate;
                                 animation: slide 5s infinite alternate;
                             }
@@ -184,12 +181,10 @@
                 }
             }
         }
-
     }
 
     #benefits-smart {
         position: relative;
-        top: -93px;
 
         > div {
             @include md {
@@ -225,8 +220,6 @@
                     background-color: $light;
                     background-image: url("../img/benefits/smartest/benefits-smartest-pig.png");
                     background-position: center;
-
-
                     position: relative;
                     z-index: 1;
                     @include md {
@@ -421,48 +414,50 @@
         }
     }
 
-    #benefits-witt{
-        >div{
-            @include md{
+    #benefits-witt {
+        > div {
+            @include md {
                 display: grid;
                 grid-template-columns: 1fr 5fr 7fr;
                 grid-template-rows: auto auto;
             }
-            #benefits-witt-text{
+
+            #benefits-witt-text {
                 display: flex;
                 // justify-content: center;
-                @include sm{
+                @include sm {
                     justify-content: center;
                 }
-                @include md{
+                @include md {
                     grid-column: 2 / 3;
                     display: block;
                 }
-                >article{
+
+                > article {
                     padding-left: 45px;
                     max-width: 320px;
-                    @include sm{
+                    @include sm {
                         max-width: 400px;
                         padding-left: 0;
                     }
-                    h2{
-                        color: $navy;
 
-                        @include md{
+                    h2 {
+                        color: $navy;
+                        @include md {
                             padding-bottom: 20px;
                         }
 
-                        span{
-                            color:$cool;
+                        span {
+                            color: $cool;
                         }
                     }
 
-                    p{
+                    p {
                         max-width: 180px;
-                        @include sm{
+                        @include sm {
                             max-width: 300px;
                         }
-                        @include md{
+                        @include md {
                             padding-bottom: 20px;
                             max-width: 180px;
                         }
@@ -470,63 +465,67 @@
                 }
             }
 
-            #benefits-witt-img{
+            #benefits-witt-img {
                 position: relative;
                 width: 100vw;
                 height: 100%;
-                @include md{
+
+                @include md {
                     grid-column: 2 / 4;
                     grid-row: 2 / 3;
                     width: 100%;
                 }
-                >div{
-                    @include md{
+
+                > div {
+                    @include md {
                         display: grid;
-                        grid-template-columns:repeat(11,1fr);
+                        grid-template-columns: repeat(11,1fr);
                     }
-                    #benefits-witt-img-pig{
+
+                    #benefits-witt-img-pig {
                         display: none;
-                        @include md{
+                        pointer-events: none;
+
+                        @include md {
                             display: block;
                             grid-column: 5 / 12;
                             grid-row: 1 / 2;
                         }
-                        >div{
 
-                        }
+                        > div {}
                     }
 
-                    #benefits-witt-bg{
+                    #benefits-witt-bg {
                         position: absolute;
                         width: 100%;
                         height: 140%;
                         top: -30%;
-                        @include md{
+                        pointer-events: none;
+                        @include md {
                             position: relative;
                             grid-column: 1 / 12;
                             grid-row: 1 / 2;
                             overflow-x: hidden;
                         }
-                        >div{
+
+                        > div {
                             width: 100%;
                             height: 100%;
-                            @include md{
+                            @include md {
                                 position: absolute;
                                 right: -20%;
                                 top: -5%;
                             }
 
-
-                            >div{
+                            > div {
                                 height: 100%;
                                 width: 100%;
                                 background-size: auto 100%;
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 mix-blend-mode: multiply;
-                                background-image: url('../img/benefits/witt/benefits-witt-bg.png');
-
-                                @include md{
+                                background-image: url("../img/benefits/witt/benefits-witt-bg.png");
+                                @include md {
                                     background-size: auto 90%;
                                 }
                             }
@@ -534,6 +533,8 @@
                     }
 
                     #benefits-witt-points{
+                        position: relative;
+                        z-index: 100;
                         @include sm{
                             width: 100vw;
                             display: flex;
@@ -547,6 +548,8 @@
                         ul{
                             margin-top: 50px;
                             padding: 0  50px;
+                            border-width: 0;
+                            box-shadow: none;
 
                             @include sm{
                                 max-width: 400px;
@@ -557,112 +560,130 @@
                                 max-width: 500px;
                             }
                             >li{
-                                display: flex;
-                                margin-bottom: 50px;
-                                .benefits-witt-plus{
-                                    width: 42px;
-                                    height: 42px;
-                                    margin-right: 30px;
-                                    border: 1px solid $navy;
-                                    border-radius: 100px;
-                                    display: inline-block;
-
-                                    >div{
-                                        display: flex;
+                                .benefits-witt-points-title{
+                                    display: flex;
+                                    padding-bottom: 25px;
+                                    .benefits-witt-plus{
                                         width: 42px;
                                         height: 42px;
-                                        justify-content: center;
-                                        align-items: center;
+                                        margin-right: 30px;
+                                        border: 1px solid $navy;
+                                        border-radius: 100px;
+                                        display: inline-block;
 
-                                        p{
-                                            font-size: rem-calc(30px);
+                                        >div{
+                                            display: flex;
+                                            width: 42px;
+                                            height: 42px;
+                                            justify-content: center;
+                                            align-items: center;
+
+                                            p{
+                                                font-size: rem-calc(30px);
+                                                color: $navy;
+                                            }
                                         }
+
+
                                     }
 
+                                    >h3{
+                                        color: $navy;
 
+
+                                    }
                                 }
 
-                                >h3{
-                                    color: $navy;
+
+                                .benefits-witt-info{
+                                    margin-bottom: 50px;
+
+                                    @include sm{
+                                        max-width: 300px;
+                                    }
+
+                                    @include md{
+                                        max-width: 250px;
+                                    }
 
                                 }
                             }
                         }
                     }
                 }
-
-
             }
         }
     }
 
-    #benefits-emotion{
+    #benefits-emotion {
         margin-top: 150px;
         display: flex;
         justify-content: center;
-        >div{
-            @include md{
+
+        > div {
+            @include md {
                 display: grid;
                 grid-template-columns: 50% 50%;
                 max-width: 900px;
             }
-            @include lg{
+            @include lg {
                 width: 1000px;
             }
-            #benefits-emotion-text{
-                >div{
+
+            #benefits-emotion-text {
+                > div {
                     display: flex;
                     justify-content: center;
-                    >article{
+
+                    > article {
                         padding-left: 10px;
                         max-width: 325px;
-                        h2{
+
+                        h2 {
                             color: $navy;
-                            >span{
+
+                            > span {
                                 color: $hot;
                             }
-
-                            @include md{
-                            }
+                            @include md {}
                         }
 
-                        p{
+                        p {
                             max-width: 300px;
                         }
                     }
                 }
-
             }
 
-            #benefits-emotion-img{
+            #benefits-emotion-img {
                 width: 100%;
                 height: 350px;
                 margin-top: 50px;
-
-                @include sm{
+                @include sm {
                     height: 450px;
                 }
-
-                @include md{
+                @include md {
                     height: 350px;
-                    margin-top:-50px;
+                    margin-top: -50px;
                 }
-
-                @include lg{
+                @include lg {
                     height: 300px;
                     margin-top: 0;
                 }
-                >div{
+
+                > div {
                     width: 100%;
                     height: 100%;
-                    >div{
+
+                    > div {
                         width: 100%;
                         height: 100%;
                         position: relative;
                         z-index: 1;
                         background-size: cover;
                         background-position: center bottom;
-                        background-image: url('../img/benefits/emotion/benefits-emotion-main.png');
+                        background-image: url("../img/benefits/emotion/benefits-emotion-main.png");
+
                         &::before {
                             content: '';
                             position: absolute;
@@ -700,7 +721,6 @@
                                 width: 101%;
                                 background-position: -125% 0;
                                 left: -1%;
-
                             }
                             @include lg {
                                 left: -1%;
@@ -710,220 +730,211 @@
                 }
             }
 
-            #benefits-emotion-list{
-                @include md{
+            #benefits-emotion-list {
+                @include md {
                     grid-column: 1 / 3;
                     width: 100%;
-
                 }
-                >div{
-                    >ul{
-                        @include md{
+
+                > div {
+                    > ul {
+                        @include md {
                             width: 100%;
                             display: flex;
                             justify-content: space-around;
-
                         }
-                        >li{
+
+                        > li {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
                             position: relative;
-                            padding: 50px 0 50px;
+                            padding: 50px 0;
 
-                            &::after{
-                                content:'';
+                            &::after {
+                                content: '';
                                 position: absolute;
                                 bottom: 0;
                                 height: 2px;
                                 width: 150px;
                                 background-color: $navy;
-
                             }
 
-                            .benefits-emotion-list-img{
+                            .benefits-emotion-list-img {
                                 width: 160px;
                                 height: 160px;
                                 border-radius: 200px;
                                 background-position: center;
                                 background-size: cover;
                                 // background-color: red;
-
                             }
 
-                            h3{
+                            h3 {
                                 margin-top: 25px;
                                 // font-size: rem-calc(22px);
                                 color: $navy;
                                 text-align: center;
                                 max-width: 270px;
-
-
                             }
 
-                            &:nth-child(1){
-                                .benefits-emotion-list-img{
-                                    background-image: url('../img/benefits/emotion/benefits-emotion-1.png');
+                            &:nth-child(1) {
+                                .benefits-emotion-list-img {
+                                    background-image: url("../img/benefits/emotion/benefits-emotion-1.png");
                                 }
 
-                                h3{
+                                h3 {
                                     max-width: 200px;
                                 }
                             }
 
-                            &:nth-child(2){
-                                .benefits-emotion-list-img{
-                                    background-image: url('../img/benefits/emotion/benefits-emotion-2.png');
+                            &:nth-child(2) {
+                                .benefits-emotion-list-img {
+                                    background-image: url("../img/benefits/emotion/benefits-emotion-2.png");
                                 }
-
                             }
 
-                            &:nth-child(3){
-                                .benefits-emotion-list-img{
-                                    background-image: url('../img/benefits/emotion/benefits-emotion-3.png');
+                            &:nth-child(3) {
+                                .benefits-emotion-list-img {
+                                    background-image: url("../img/benefits/emotion/benefits-emotion-3.png");
                                 }
-
                             }
                         }
                     }
                 }
-
             }
         }
     }
 
-    #benefits-quote{
+    #benefits-quote {
         margin-top: 150px;
         margin-bottom: 150px;
-        >div{
+
+        > div {
             background-size: cover;
-            background-image: url('../img/benefits/quote/benefits-quote-background.png');
+            background-image: url("../img/benefits/quote/benefits-quote-background.png");
             -webkit-animation: slide 10s infinite alternate;
             animation: slide 10s infinite alternate;
-
-            @include md{
+            @include md {
                 background-size: auto 100%;
-
             }
-            >div{
+
+            > div {
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-image: url('../img/benefits/quote/benefits-quote-background-line.png');
+                background-image: url("../img/benefits/quote/benefits-quote-background-line.png");
                 display: flex;
                 justify-content: center;
-
-                @include md{
+                @include md {
                     background-size: auto 100%;
-
                 }
 
-                >article{
+                > article {
                     padding: 150px 50px;
                     max-width: 475px;
-
-                    @include md{
+                    @include md {
                         max-width: 700px;
                     }
-                    >h2{
+
+                    > h2 {
                         color: $navy;
                         padding-bottom: 10px;
-                        span{
+
+                        span {
                             color: $hot;
                         }
                     }
-                    >p{
 
-                    }
+                    > p {}
                 }
-
             }
         }
     }
 
-    #benefits-easy{
-        @include lg{
+    #benefits-easy {
+        @include lg {
             display: grid;
             grid-template-columns: auto 80% auto;
         }
-
-        @include xl{
+        @include xl {
             grid-template-columns: auto 1000px auto;
         }
 
-        >div{
-            @include md{
+        > div {
+            @include md {
                 display: grid;
                 grid-template-columns: 50% 50%;
             }
-
-            @include lg{
+            @include lg {
                 grid-column: 2 / 3;
             }
-            #benefits-easy-img{
-                @include lg{
+
+            #benefits-easy-img {
+                @include lg {
                     grid-column: 1 / 3;
                 }
-                >div{
+
+                > div {
                     width: 100%;
                     height: 485px;
                     background-position: 70%;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    background-image: url('../img/benefits/easy/benefits-easy.png');
-                    @include lg{
+                    background-image: url("../img/benefits/easy/benefits-easy.png");
+                    @include lg {
                         height: 350px;
                     }
                 }
             }
 
-            #benefits-easy-text{
+            #benefits-easy-text {
                 display: flex;
                 justify-content: center;
-                @include lg{
+                @include lg {
                     grid-column: 1 / 3;
                 }
-                >article{
+
+                > article {
                     padding: 50px 10px;
                     max-width: 315px;
-
-                    @include lg{
+                    @include lg {
                         max-width: 100%;
                         display: flex;
                     }
 
-                    h2{
+                    h2 {
                         color: $navy;
-                        span{
+
+                        span {
                             color: $cool;
                         }
-
-                        @include lg{
+                        @include lg {
                             text-align: right;
                             max-width: 400px;
                             margin-right: 100px;
                         }
                     }
-                    p{
-                        @include lg{
+
+                    p {
+                        @include lg {
                             max-width: 400px;
                         }
                     }
-
                 }
             }
         }
     }
 
-    #home-adoption{
+    #home-adoption {
         width: 100%;
-        >div{
+
+        > div {
             height: 100vh;
             width: 100%;
             background-position: center;
             background-size: cover;
-            background-image: url('../img/benefits/adopt/benefits-adopt-main.png');
+            background-image: url("../img/benefits/adopt/benefits-adopt-main.png");
             display: flex;
             justify-content: center;
             position: relative;
@@ -941,13 +952,11 @@
                 transform: scaleY(-1);
                 -webkit-animation: slide 10s infinite alternate;
                 animation: slide 10s infinite alternate;
-
-                @include md{
+                @include md {
                     -webkit-animation: slide 6s infinite alternate;
                     animation: slide 6s infinite alternate;
                 }
-
-                @include lg{
+                @include lg {
                     -webkit-animation: slide 4s infinite alternate;
                     animation: slide 4s infinite alternate;
                 }
@@ -962,37 +971,31 @@
                 }
             }
 
-
-
-            >article{
+            > article {
                 position: absolute;
                 top: 70%;
                 // padding-top: 40%;
                 max-width: 250px;
-
-                @include md{
+                @include md {
                     max-width: 330px;
                     top: 40%;
                     left: 15%;
                 }
-
-                @include lg{
+                @include lg {
                     top: 30%;
                 }
 
-                h2{
+                h2 {
                     color: white;
                     padding-bottom: 15px;
-                    @include md{
+                    @include md {
                         font-size: rem-calc(80px);
                         line-height: rem-calc(80px);
                     }
                 }
             }
         }
-
     }
-
     @-webkit-keyframes slide {
         from {
             background-position: 0 0;

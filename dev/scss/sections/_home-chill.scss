@@ -71,8 +71,29 @@
             }
         }
 
-        #home-chill-divider{
-            height: 0px;
+
+    }
+    #home-chill-divider{
+        height: 350px;
+        width: 100%;
+        display: none;
+        margin-top: -100px;
+        @include md{
+            display: inline;
+        }
+
+        @include lg{
+            height: 400px;
+            width: 100vw;
+            max-width: none;
+            margin-top: -300px;
+
+        }
+        >div{
+            width: 100%;
+            >svg{
+                width: 100%;
+            }
         }
     }
 }

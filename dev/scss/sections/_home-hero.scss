@@ -1,10 +1,18 @@
 #home-hero{
+    padding-top: 50px;
     background-image: url('../img/home/hero-bkg.svg');
-    background-position: center center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 70px;
+    @include md{
+        height: 70vh;
+    }
     @include lg{
-        height: 100vh;
+        height: 60vh;
+        width: 100vw;
+        background-position: center center;
+        background-size: auto 100%;
     }
 
 
@@ -32,27 +40,69 @@
             width: 90%;
             max-width: 1200px;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 6fr 5fr;
         }
 
-            article{
+            >article{
                 @include section-padding;
                 h1{
                     span{
                         color: $hot;
                     }
                 }
+                h3{
+                    max-width: rem-calc(237px);
+                    @include lg{
+                        max-width: rem-calc(390px);
+                    }
+                }
             }
-            div{
+            >div{
                 background-image: url('../img/home/hero-pig.png');
                 background-position: -70px bottom;
                 background-repeat: no-repeat;
                 background-size: contain;
                 height: 500px;
+                width: 100%;
+                height: 100%;
+                overflow-x: hidden;
+                overflow-y: visible;
                 @include md{
                     background-position: left bottom;
                     padding-top: 80px;
                 }
+
+                @include lg{
+                    background-size: 90%;
+                    background-position: center;
+                }
+                >div{
+                    width: 140%;
+                    display: flex;
+                    justify-content: center;
+
+                    @include md{
+                        width: 120%;
+                        margin-bottom: -15%;
+                    }
+
+                    @include lg{
+                        width: 100%;
+                        margin-bottom: -25%;
+                    }
+
+
+                    >svg{
+                        width: 100%;
+                        margin-left: -30%;
+
+                        @include md{
+                            margin-left: 0;
+                        }
+                    }
+                }
+
+
             }
 
         }
