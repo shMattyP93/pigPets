@@ -8,29 +8,49 @@
         background-size: 80%;
     }
     @include lg{
-        display: grid;
+        background-size: auto 100%;
+        display: block;
         grid-template-areas:
                 ". home-smart-grid .";
-        grid-template-columns: auto 1200px auto;
     }
 
-    div{
+    >div{
         grid-area: home-smart-grid;
+        @include lg{
+            display: grid;
+            grid-template-columns: 1fr 3fr 2fr 6fr;
+        }
         #home-smart-text{
             position: relative;
             z-index: 1;
             @include section-padding;
             padding-bottom: 0px;
+            max-width: rem-calc(320px);
+
+
             h2{
+                max-width: 420px;
                 span{
                     color: $accent;
                 }
             }
+
+            p{
+                max-width: rem-calc(245px);
+
+                @include lg{
+                    max-width: rem-calc(350px);
+                }
+            }
             @include md{
                 width: 50%;
+
             }
             @include lg{
-                padding-left: 100px;
+                grid-row: 1 / 2;
+                grid-column: 2 / 4;
+                width: 100%;
+                max-width: none;
             }
         }
         #home-smart-img{
@@ -40,17 +60,27 @@
             background-position: 65px 0px;
             height: 400px;
             background-repeat: no-repeat;
-            background-size: 160%;
+            background-size: auto 100%;
             @include md{
                 height: 600px;
-                background-position: 100px -300px;
+                background-position: left top;
                 overflow: visible;
+                margin-top: -300px;
+                width: 80%;
+                margin-left: 20%;
             }
             @include lg{
-                height: 600px;
-                background-size: 70%;
-                background-position: bottom center;
+                grid-row: 1 / 2;
+                margin-top: 0;
+                height:100%;
+                background-size: 120%;
+                background-position: left center;
                 overflow: visible;
+                grid-column: 3 / 5;
+            }
+
+            @include xl{
+                background-size: auto 100%;
             }
         }
     }

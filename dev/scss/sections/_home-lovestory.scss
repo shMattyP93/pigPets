@@ -13,6 +13,7 @@
             grid-template-areas:
                     "home-lovestory-h2 home-lovestory-img home-lovestory-text";
             grid-template-columns: 30% 30% 30%;
+            padding-top: 0;
         }
         @include xl{
             display: grid;

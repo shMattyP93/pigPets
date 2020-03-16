@@ -1,9 +1,111 @@
 /* =============
     Header
 ============= */
-header{
-  background-color: $white;
-  padding: 25px;
-  display: flex;
-  justify-content: space-between;
+header {
+    padding: 10px 24px;
+    height: 60px;
+    width: calc(100vw - 48px);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    @include lg {
+        padding: 20px 50px;
+    }
+
+    #header-logo {
+        height: 100%;
+        mix-blend-mode: multiply;
+        display: flex;
+        align-items: center;
+
+        > svg {
+            height: 50%;
+            mix-blend-mode: multiply;
+
+            @include md{
+                height: 65%;
+            }
+
+            @include lg{
+                height: 80%;
+            }
+
+            .header-heart {
+                fill: $hot;
+            }
+
+            .adopt-heart{
+                fill: $hot;
+            }
+
+            .benefits-heart{
+                fill: $accent;
+            }
+            .care-heart{
+                fill: $cool;
+            }
+
+
+
+        }
+    }
+
+    #menu-burger{
+        display: flex;
+        align-items: center;
+        width: 50px;
+
+        @include lg{
+            display: none;
+        }
+
+        >svg{
+            width: 100%;
+            height: 100%;
+
+            #burger-bar{
+                opacity: 0;
+            }
+            #burger-circle-1{
+                transition: 0.25s;
+            }
+            #burger-circle-2{
+                transition: 0.25s;
+            }
+            #burger-bar{
+                transform-origin: center;
+            }
+        }
+    }
+
+    .menu-mobile-burger-activate{
+        >svg{
+            #burger-circle-1{
+                transform: translateX(-30px);
+            }
+            #burger-circle-2{
+                transform: translateX(30px);
+            }
+            #burger-bar{
+                opacity: 1 !important;
+                        -webkit-animation-name: burger-expand;
+                                animation-name: burger-expand;
+                        -webkit-animation-duration: 0.125s;
+                                animation-duration: 0.125s;
+                        -webkit-animation-delay: 0.15s;
+                                animation-delay: 0.15s;
+            }
+
+            @-webkit-keyframes burger-expand{
+                from{transform: scaleX(0);}
+                to{transform: scaleX(1);}
+            }
+
+            @keyframes burger-expand{
+                from{transform: scaleX(0);}
+                to{transform: scaleX(1);}
+            }
+        }
+    }
 }

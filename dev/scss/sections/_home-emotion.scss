@@ -2,39 +2,66 @@
     @include lg{
         display: grid;
         grid-template-areas:
-                ". home-emotion-grid .";
-        grid-template-columns: auto 1200px auto;
+                "home-emotion-grid .";
     }
-    div{
+    >div{
         grid-area: home-emotion-grid;
+        max-width: 1200px;
         display: grid;
-        grid-template-areas:
-                "home-emotion-img home-emotion-text";
-        grid-template-columns: 50% 50%;
+
+        @include md{
+            grid-template-columns: 5fr 1fr 5fr 1fr;
+        }
+
 
         #home-emotion-text{
-            grid-area: home-emotion-text;
             @include section-padding;
             padding-bottom: 0px;
             h2{
+                max-width: 350px;
+
+                @include lg{
+                    max-width: 450px;
+
+                }
                 span{
                     color: $hot;
                 }
+            }
+
+            p{
+                max-width: 350px;
+                @include lg{
+                    max-width: 400px;
+                }
+            }
+
+            @include md{
+                grid-column: 2 / 4;
+                grid-row: 1 / 2;
+                padding-right: 0;
             }
             @include lg{
                 padding-left: 0px;
             }
         }
         #home-emotion-img{
-            grid-area: home-emotion-img;
             background-image: url('../img/home/heart-group.svg');
-            background-position: center;
+            background-position: left top;
             height: 400px;
             background-repeat: no-repeat;
             background-size: contain;
+
+            @include md{
+                grid-column: 1 / 3;
+                grid-row: 1 / 3;
+                height: 120%;
+                margin-top: 20%;
+            }
             @include lg{
-                background-position: center center;
+                background-position: left center;
                 height: 600px;
+
 
             }
         }
