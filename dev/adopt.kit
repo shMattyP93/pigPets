@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/jquery.vidbacking-min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>pigPets</title>
     <!--Fonts-->
@@ -16,121 +17,202 @@
 
 <body>
 
-  <!-- @import "header.kit" -->
-  <main>
-      <section id="adopt-hero">
-          <div>
-              <h2>Bringing home a <span>pig pet</span></h2>
-          </div>
-          <div></div>
-      </section>
-      <section id="adopt-testimonials">
-          <h2>Hear what pig parents say <span>about their pigs</span></h2>
-          <ul>
-              <li>
-                  <h1>“</h1>
-                  <p><span>All you want to do is protect this little pig</span> from anything that will harm them. Sometimes you may go overboard, but nonetheless, it's done because you can’t imagine life without this pig and you can see the two of you growing old together.</p>
-                  <h3>DEBBIE / 47 / LITTLE ROCK, AK</h3>
-              </li>
-              <li>
-                  <h1>“</h1>
-                  <p>
-                      I love my pig dearly, so I overlook some of the undesirable things she may do at times. I knew getting a pig as a pet would come with some issues that I wouldn't necessarily like, but I accepted that as a part of having a pig in my home. I do not regret one minute of it. I know <span>I have made good decisions for my pig and that she will never have to worry about where she will lay her head at night,</span> and ultimately all that matters to me is that my pig is safe.
-                  </p>
-                  <h3>JOHNNY / 32 / AUSTIN, TX</h3>
-              </li>
-              <li>
-                <h1>“</h1>
-                  <p>
-                      There are times when my pig just wants to lay in my lap and be cuddled, and there are days when she does not want this, but I enjoy the days when she does. <span>The times when I take her on walks or to a store are the best.</span> My pig doesn't mind putting on a harness and it is fun to watch the neighborhood kids run out to pet her.
-                  </p>
-                  <h3>SAM / 64 / SCRANTON, PA</h3>
-              </li>
-          </ul>
-      </section>
-      <section id="adopt-expect">
-          <div>
-              <aside></aside>
-          </div>
-          <div>
-              <h2>What to expect when <span>living with a pig</span></h2>
-          </div>
-          <div>
-              <ul>
-                  <li>
-                      <h3>Size of your pig</h3>
-                      <p>Fully-grown pigs weigh between 100 and 150 pounds. Unlike the “teacup pig” myth, the smallest healthy size of a fill-grown pig is around 60 lb.</p>
-                  </li>
-                  <li>
-                      <h3>Other housemates</h3>
-                      <p>If you live with small children or other pets like dogs, a pig may not feel safe and happy in your home.</p>
-                  </li>
-                  <li>
-                      <h3>Zoned for approval</h3>
-                      <p>In the eyes of the law, any size pig is seen as livestock. Make sure your area is zoned before bringing home your pig. </p>
-                  </li>
-                  <li>
-                      <h3>Finding a vet</h3>
-                      <p>Specific vets are needed to care for  your pig, but we’ll help you out.</p>
-                  </li>
-                  <li>
-                      <button type="button" name="button">find a vet</button>
-                  </li>
-              </ul>
-          </div>
-      </section>
-      <section id="adopt-pig-bio">
-          <div>
-            <h1><img src="img/adopt/heart.svg" alt="heart logo">big</h1>
-            <h1>love</h1>
-            <h1>story</h1>
-          </div>
-          <div>
-              <article></article>
-          </div>
-          <div>
-              <article>
-                  <h2>Meet Ziggy.</h2>
-                  <h3>Vietnamese Pot Bellied adult black male</h3>
-                  <p><span>“Dashingly handsome, above-average smarts, with a happy disposition.”</span> If Ziggy could talk, this is how he would describe himself. In all honesty, it's pretty much the truth. Ziggy has the thickest, most beautiful coat of bristles you will ever see. Born February 2014, this stunning fella joined the sancuary in 2016. Found as a stray in northern Arizona, Ziggy is cute as a teddy bear, and confident with other pigs. Ziggy is looking for a home where he can bring one of his Sanctuary pig friends, or to join a family which already includes piggy companions.</p>
-                      <aside>
-                          <button type="button" name="button">adopt ziggy</button>
-                          <button type="button" name="button">sponsor ziggy</button>
-                      </aside>
-              </article>
-          </div>
-      </section>
-      <section id="adopt-oinking">
-          <div>
-              <h2>Adopt your new <span>oinking friend</span></h2>
-              <h3>When you adopt a pig from one of our sanctuaries, we keep adoption fees low and make sure that your pig is healthy, well-socialized, and up-to-date on vaccines.</h3>
-              <img src="" alt="">
-          </div>
-          <div>
-              <button type="button" name="button">find a sanctuary near me</button>
-          </div>
-          <div></div>
+    <section id="adopt-form">
+        <div>
+            <div>
+                <div id="adopt-form-exit">
+                    <h3>X</h3>
+                </div>
+                <div id="adopt-form-video" class="video-back">
 
-          <div>
-              <ul>
-                  <li>
-                      <h2>Size</h2>
-                      <p>If you adopt a full-grown potbellied pig, you'll know exactly what size pig you are getting.</p>
-                  </li>
-                  <li>
-                      <h2>Vaccines</h2>
-                      <p>We keep track of all vaccines that every pig is administered and make sure they are up to date before adoption.</p>
-                  </li>
-                  <li>
-                      <h2>Cost</h2>
-                      <p>Thanks to our donors and sponsorships, we can keep our adoption fees low.</p>
-                  </li>
-              </ul>
-          </div>
-      </section>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLURlLXbHDYqqRybNjldPkxATtQQgDFXQX&autoplay=1&loop=1&start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;mute=1&amp;start=3" allowfullscreen class="vidbacking"></iframe>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/WSRv7dLDh6c?&start=10&controls=0&title=0&portrait=0&autoplay=1&loop=1&" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vidbacking"></iframe> -->
+                </div>
+                <div id="adopt-form-content">
+                    <form method="POST">
 
-  </main>
-  <!-- @import "footer.kit" -->
+                        <div class="adopt-form-content-heading">
+                            <h2>Work with us!</h2>
+                        </div>
+                        <!-- first name -->
+
+                        <div class="adopt-form-content-name">
+                            <div class="adopt-form-content-1">
+                                <label>
+                                    <input type="text" placeholder="First Name" name="First Name">
+                                    <!-- <input type="hidden" name="_next" value="http://axbdesign.com/web2/Final/thankyou.html" /> -->
+                                    <input type="text" name="_gotcha" style="display:none" />
+                                </label>
+                            </div>
+                            <!-- last name -->
+                            <div class="adopt-form-content-2">
+                                <label>
+                                    <input type="text" placeholder="Last Name" name="Last Name">
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- email -->
+                        <div class="adopt-form-content-3">
+                            <label>
+                                <input type="text" placeholder="Email" name="Email">
+                            </label>
+                        </div>
+                        <!-- area code -->
+
+                        <div class="adopt-form-content-4">
+                            <label>
+                                <input type="text" placeholder="Area Code" name="Area Code">
+                            </label>
+                        </div>
+                        <!-- email -->
+                        <div class="adopt-form-content-5">
+                            <label>
+                                <article id="adopt-form-drop-down">
+                                    <p>I want to</p>
+                                    <!-- <select name="adopt option">
+                                        <option value="adopt" selected>Adopt a pig</option>
+                                        <option value="surrender">Surrender a pig</option>
+                                    </select> -->
+                                    <input type="text" placeholder="Select an option" name="adopt option" list="adopt option">
+                                    <datalist id="adopt option">
+                                        <option value="Adopt a pig">
+                                        <option value="Surrender a pig">
+                                    </datalist>
+                                </article>
+                            </label>
+                        </div>
+                        <div class="adopt-form-content-button">
+                            <button type="submit" value="send">Find a pig near you!</button>
+                            <input type="hidden" name="_next" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- @import "header.kit" -->
+    <main>
+        <section id="adopt-hero">
+            <div>
+                <h2>Bringing home a <span>pig pet</span></h2>
+            </div>
+            <div></div>
+        </section>
+        <section id="adopt-testimonials">
+            <h2>Hear what pig parents say <span>about their pigs</span></h2>
+            <ul>
+                <li>
+                    <h1>“</h1>
+                    <p><span>All you want to do is protect this little pig</span> from anything that will harm them. Sometimes you may go overboard, but nonetheless, it's done because you can’t imagine life without this pig and you can see the two of
+                        you growing old together.</p>
+                    <h3>DEBBIE / 47 / LITTLE ROCK, AK</h3>
+                </li>
+                <li>
+                    <h1>“</h1>
+                    <p>
+                        I love my pig dearly, so I overlook some of the undesirable things she may do at times. I knew getting a pig as a pet would come with some issues that I wouldn't necessarily like, but I accepted that as a part of having a pig
+                        in my home. I do not regret one minute of it. I know <span>I have made good decisions for my pig and that she will never have to worry about where she will lay her head at night,</span> and ultimately all that matters to me is
+                        that my pig is safe.
+                    </p>
+                    <h3>JOHNNY / 32 / AUSTIN, TX</h3>
+                </li>
+                <li>
+                    <h1>“</h1>
+                    <p>
+                        There are times when my pig just wants to lay in my lap and be cuddled, and there are days when she does not want this, but I enjoy the days when she does. <span>The times when I take her on walks or to a store are the
+                            best.</span> My pig doesn't mind putting on a harness and it is fun to watch the neighborhood kids run out to pet her.
+                    </p>
+                    <h3>SAM / 64 / SCRANTON, PA</h3>
+                </li>
+            </ul>
+        </section>
+        <section id="adopt-expect">
+            <div>
+                <aside></aside>
+            </div>
+            <div>
+                <h2>What to expect when <span>living with a pig</span></h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Size of your pig</h3>
+                        <p>Fully-grown pigs weigh between 100 and 150 pounds. Unlike the “teacup pig” myth, the smallest healthy size of a fill-grown pig is around 60 lb.</p>
+                    </li>
+                    <li>
+                        <h3>Other housemates</h3>
+                        <p>If you live with small children or other pets like dogs, a pig may not feel safe and happy in your home.</p>
+                    </li>
+                    <li>
+                        <h3>Zoned for approval</h3>
+                        <p>In the eyes of the law, any size pig is seen as livestock. Make sure your area is zoned before bringing home your pig. </p>
+                    </li>
+                    <li>
+                        <h3>Finding a vet</h3>
+                        <p>Specific vets are needed to care for your pig, but we’ll help you out.</p>
+                    </li>
+                    <li>
+                        <button type="button" name="button">find a vet</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="adopt-pig-bio">
+            <div>
+                <h1><img src="img/adopt/heart.svg" alt="heart logo">big</h1>
+                <h1>love</h1>
+                <h1>story</h1>
+            </div>
+            <div>
+                <article></article>
+            </div>
+            <div>
+                <article>
+                    <h2>Meet Ziggy.</h2>
+                    <h3>Vietnamese Pot Bellied adult black male</h3>
+                    <p><span>“Dashingly handsome, above-average smarts, with a happy disposition.”</span> If Ziggy could talk, this is how he would describe himself. In all honesty, it's pretty much the truth. Ziggy has the thickest, most beautiful
+                        coat of bristles you will ever see. Born February 2014, this stunning fella joined the sancuary in 2016. Found as a stray in northern Arizona, Ziggy is cute as a teddy bear, and confident with other pigs. Ziggy is looking for
+                        a home where he can bring one of his Sanctuary pig friends, or to join a family which already includes piggy companions.</p>
+                    <aside>
+                        <button type="button" name="button">adopt ziggy</button>
+                        <button type="button" name="button">sponsor ziggy</button>
+                    </aside>
+                </article>
+            </div>
+        </section>
+        <section id="adopt-oinking">
+            <div>
+                <h2>Adopt your new <span>oinking friend</span></h2>
+                <h3>When you adopt a pig from one of our sanctuaries, we keep adoption fees low and make sure that your pig is healthy, well-socialized, and up-to-date on vaccines.</h3>
+                <img src="" alt="">
+            </div>
+            <div>
+                <button id="adopt-form-trigger" type="button" name="button">find a sanctuary near me</button>
+            </div>
+            <div></div>
+
+            <div>
+                <ul>
+                    <li>
+                        <h2>Size</h2>
+                        <p>If you adopt a full-grown potbellied pig, you'll know exactly what size pig you are getting.</p>
+                    </li>
+                    <li>
+                        <h2>Vaccines</h2>
+                        <p>We keep track of all vaccines that every pig is administered and make sure they are up to date before adoption.</p>
+                    </li>
+                    <li>
+                        <h2>Cost</h2>
+                        <p>Thanks to our donors and sponsorships, we can keep our adoption fees low.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <!-- @import "footer.kit" -->
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
