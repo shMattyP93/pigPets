@@ -520,7 +520,8 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  z-index: 999; }
+  z-index: 999;
+  background-color: #ffffff; }
   @media (min-width: 992px) {
     header {
       padding: 20px 50px; } }
