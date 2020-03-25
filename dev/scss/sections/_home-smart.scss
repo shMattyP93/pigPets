@@ -1,0 +1,87 @@
+#home-smart{
+    background-image: url('../img/home/bkg-blob1.svg');
+    background-position: 100px center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    @include md{
+        background-position: center center;
+        background-size: 80%;
+    }
+    @include lg{
+        background-size: auto 100%;
+        display: block;
+        grid-template-areas:
+                ". home-smart-grid .";
+    }
+
+    >div{
+        grid-area: home-smart-grid;
+        @include lg{
+            display: grid;
+            grid-template-columns: 1fr 3fr 2fr 6fr;
+        }
+        #home-smart-text{
+            position: relative;
+            z-index: 1;
+            @include section-padding;
+            padding-bottom: 0px;
+            max-width: rem-calc(320px);
+
+
+            h2{
+                max-width: 420px;
+                span{
+                    color: $accent;
+                }
+            }
+
+            p{
+                max-width: rem-calc(245px);
+
+                @include lg{
+                    max-width: rem-calc(350px);
+                }
+            }
+            @include md{
+                width: 50%;
+
+            }
+            @include lg{
+                grid-row: 1 / 2;
+                grid-column: 2 / 4;
+                width: 100%;
+                max-width: none;
+            }
+        }
+        #home-smart-img{
+            position: relative;
+            z-index: 100;
+            background-image: url('../img/home/pig-smart.svg');
+            background-position: 65px 0px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            @include md{
+                height: 600px;
+                background-position: left top;
+                overflow: visible;
+                margin-top: -300px;
+                width: 80%;
+                margin-left: 20%;
+            }
+            @include lg{
+                grid-row: 1 / 2;
+                margin-top: 0;
+                height:100%;
+                background-size: 120%;
+                background-position: left center;
+                overflow: visible;
+                grid-column: 3 / 5;
+            }
+
+            @include xl{
+                background-size: auto 100%;
+            }
+        }
+    }
+    }

@@ -1,0 +1,27 @@
+#care-hero{
+  @include section-padding;
+  background-image: url("../img/care/care-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  @include md{
+    height: 20vh;
+    background-position: bottom;
+  }
+  @include xl{
+    height: 55vh;
+    background-position: bottom;
+  }
+  h2{
+    @include xl{
+      padding: 5% 0 0 15%;
+    }
+    span{
+      color: $accent;
+    }
+  }
+  button{
+    @include xl{
+      margin: 5% 0 0 15%;
+    }
+  }
+}

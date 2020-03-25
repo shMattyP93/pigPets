@@ -1,0 +1,53 @@
+#home-lovestory{
+@include section-padding;
+    div{
+        @include md{
+            display: grid;
+            grid-template-areas:
+                    "home-lovestory-h2 ."
+                    "home-lovestory-img home-lovestory-text";
+            grid-template-columns: 50% 50%;
+        }
+        @include lg{
+            display: grid;
+            grid-template-areas:
+                    "home-lovestory-h2 home-lovestory-img home-lovestory-text";
+            grid-template-columns: 30% 30% 30%;
+            padding-top: 0;
+        }
+        @include xl{
+            display: grid;
+            grid-template-areas:
+                    ". home-lovestory-h2 home-lovestory-img home-lovestory-text .";
+            grid-template-columns: auto 300px 400px 400px auto;
+        }
+        h2{
+            span{
+                color: $accent;
+            }
+        }
+
+        #home-lovestory-h2{
+            grid-area: home-lovestory-h2;
+            display: flex;
+            align-items: center;
+
+        }
+
+        #home-lovestory-text{
+            grid-area: home-lovestory-text;
+            padding-bottom: 0px;
+            display: flex;
+            align-items: center;
+
+        }
+        #home-lovestory-img{
+            grid-area: home-lovestory-img;
+            background-image: url('../img/home/pig-lovestory.jpg');
+            background-position: center center;
+            height: 240px;
+            background-repeat: no-repeat;
+            background-size: 80%;
+        }
+    }
+}

@@ -19,7 +19,25 @@
 @import "layout/_footer";
 
 // Sections Styles
-@import "sections/_home";
+@import "sections/_adopt-expect";
+@import "sections/_adopt-hero";
+@import "sections/_adopt-oinking";
+@import "sections/_adopt-pig-bio";
+@import "sections/_adopt-testimonials";
+@import "sections/_adopt-form";
+
+
+@import "sections/_home-adoption";
+@import "sections/_home-chill";
+@import "sections/_home-emotion";
+@import "sections/_home-hero";
+@import "sections/_home-lovestory";
+@import "sections/_home-quote";
+@import "sections/_home-smart";
+
 @import "sections/_benefits";
-@import "sections/_care";
-@import "sections/_adopt";
+
+@import "sections/_care-hero";
+@import "sections/_care-two";
+@import "sections/_care-three";
+@import "sections/_care-four";
