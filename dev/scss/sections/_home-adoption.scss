@@ -48,17 +48,17 @@
             background-size: auto 100%;
             background-position: center;
             transform: scaleY(-1);
-            -webkit-animation: slide 10s infinite alternate;
-            animation: slide 10s infinite alternate;
+            -webkit-animation: slide 30s infinite;
+            animation: slide 30s infinite;
 
             @include md{
-                -webkit-animation: slide 6s infinite alternate;
-                animation: slide 6s infinite alternate;
+                -webkit-animation: slide 25s infinite;
+                animation: slide 25s infinite;
             }
 
             @include lg{
-                -webkit-animation: slide 4s infinite alternate;
-                animation: slide 4s infinite alternate;
+                -webkit-animation: slide 20s infinite;
+                animation: slide 20s infinite;
             }
             @include md {
                 height: 10%;
@@ -108,7 +108,7 @@
     }
 
     to {
-        background-position: -120% 0;
+        background-position: -3000% 0;
     }
 }
 @keyframes slide {
@@ -117,6 +117,6 @@
     }
 
     to {
-        background-position: -120% 0;
+        background-position: -3000% 0;
     }
 }

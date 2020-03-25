@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/jquery.vidbacking-min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>pigPets</title>
     <!--Fonts-->
@@ -16,209 +17,290 @@
 
 <body>
 
-  <header>
-      <div id="header-logo">
-          <svg viewBox="0 0 360.8 78.9">
-              <style>
-                  .st0 {
-                      fill: #18186b
-                  }
-  
-                  .st1 {
-                      fill: #fff
-                  }
-              </style>
-              <path d="M82.7 29.4c0 23-41.4 36.8-41.4 36.8S0 52.4 0 29.4 41.4 15.6 41.4 34c0-18.4 41.3-27.6 41.3-4.6z" class="header-heart" />
-              <ellipse cx="52.5" cy="41.6" class="st1" rx="5.8" ry="6.3" transform="rotate(-71.549 52.488 41.59)" />
-              <ellipse cx="30.5" cy="41.4" class="st1" rx="5.8" ry="6.3" transform="rotate(-71.549 30.51 41.4)" />
-              <g>
-                  <path
-                      d="M134.2 13.7c-5.1 0-16 .5-21.5.5-5.6 0-10.4-.2-15.3-.2-.5 0-.9.4-.9 1 0 .5.2.9.9.9.6 0 1.4-.2 2.2-.2 2.1 0 2.2 2.6 2.4 5.2.3 4.9.4 10.5.4 16.2 0 8.2-.2 16.3-.4 22.1-.2 3.9-.6 5.3-2.7 5.3-.3 0-1.4-.2-2-.2-.5 0-.9.4-.9.9 0 .6.2 1 .9 1 2.7 0 10.4-.2 15.9-.2 5.4 0 13.2.2 15.9.2.6 0 .9-.6.9-1 0-.6-.3-1-.9-1-.9 0-2.6.3-3.1.3-2.5 0-3.2-1.6-3.2-5.9 0-3.8.6-4.5 10-6.7 10.6-2.5 18.5-5.2 18.5-21.7-.1-11.4-6.5-16.5-17.1-16.5zM121.6 36c-.9 2.6-3.8 3.9-6.6 3-2.8-.9-4.3-3.8-3.5-6.3.9-2.6 3.8-3.9 6.6-3 2.8.9 4.4 3.7 3.5 6.3zm18.6.2c-.9 2.6-3.8 3.9-6.6 3-2.8-.9-4.3-3.8-3.5-6.3.9-2.6 3.8-3.9 6.6-3 2.8.9 4.4 3.7 3.5 6.3z"
-                      class="st0" />
-                  <path
-                      d="M177.5 64.4h-.2c-.3 0-.7.2-1 .2-1.2 0-1.4-1.2-1.5-5.3-.1-4.7-.1-12.1-.1-14.9 0-7 .6-19.4.6-21 0-1.6-.4-2.2-1.8-2.2-3.2 0-6.3.5-9.5.5-4.7 0-8.4-.5-12.4-.5-.6 0-.8.4-.8.9 0 .4.2.9.8.9.3 0 .8-.1 1.6-.1 1.3 0 1.7.7 1.9 3.8.2 3.6.2 8.1.2 12.3 0 7.6-.2 15.3-.5 22.3-.1 1.8-.2 3.3-1.1 3.3-.5 0-.9-.2-1.3-.2-.6 0-.9.2-.9.8 0 .7.3 1 .9 1 4 0 7.7-.3 12-.3s10.6.3 13 .3h.2c.7 0 .9-.4.9-1-.1-.4-.4-.8-1-.8z"
-                      class="st0" />
-                  <path
-                      d="M215.1 55c-7.7 0-19.8 3.1-24.7 3.1-2.9 0-3.6-.8-3.6-2 0-1.9 2.1-2.8 15.5-2.8 16.6 0 22.9-4.3 22.9-14.8 0-8.9-6.5-13.5-11.7-14.1-.8-.2-1.2-.6-1.2-1.1 0-.4.3-.9 1.1-.9.4 0 2.2.2 4.6.2 4.6 0 7.2-2.9 7.2-7.2 0-5.7-4.6-9.3-12-9.3-6.4 0-9.8 2.7-9.8 6.5 0 4.3 3.6 6.5 9.6 6.6 1.3.1 1.8.7 1.8 1.2 0 .7-.4 1.1-1.5 1.1-3 0-7.4-1.3-14.2-1.3-13.5 0-20.1 5.8-20.1 16.5 0 8.5 4.3 13.7 15.2 13.9.8 0 1.2.4 1.2 1s-.4 1-1.2 1c-2.1 0-4-.1-6.5-.1-6.2 0-10.8 4.1-10.8 12.2v1.9c.4 6.8 3.3 10.8 10.7 10.8 8.4 0 16.1-3.5 24.3-3.5 4.5 0 7.9.5 7.9 2.2 0 .8-.8 1.7-2.8 1.7-2.1 0-4.1-.9-5.7-.9-.8 0-1.1.4-1.1 1 0 1 1.6 1.4 5.9 1.4 7 0 9.9-3.6 9.9-12.8.5-8.1-3.3-11.5-10.9-11.5zm-12.9-33.4c2.6 0 3.4 3.8 3.4 17.7 0 7.5-.8 9.6-3.1 9.6-3.4 0-3.6-5.4-3.6-13.9.1-9.7 1.4-13.4 3.3-13.4z"
-                      class="st0" />
-                  <g>
-                      <path
-                          d="M265.9 17.1c-5.1 0-16 .5-21.5.5s-10.3-.2-15.3-.2c-.5 0-.9.4-.9 1 0 .5.2.9.9.9.6 0 1.4-.2 2.2-.2 2.1 0 2.2 2.6 2.4 5.2.3 4.9.4 10.5.4 16.2 0 8.2-.2 16.3-.4 22.1-.2 3.9-.6 5.3-2.7 5.3-.3 0-1.4-.2-2-.2-.5 0-.9.4-.9.9 0 .6.2 1 .9 1 2.7 0 10.4-.2 15.9-.2 5.4 0 13.2.2 15.9.2.6 0 .9-.6.9-1 0-.6-.3-1-.9-1-.9 0-2.6.3-3.1.3-2.5 0-3.2-1.6-3.2-5.9 0-3.8.6-4.5 10-6.7 10.6-2.5 18.5-5.2 18.5-21.7 0-11.5-6.5-16.5-17.1-16.5zm-9.5 27s-9-3-9-8 9-3 9 1c0-4 9-6 9-1s-9 8-9 8z"
-                          class="st0" />
-                      <path
-                          d="M329.2 47.6c-.4 0-.8.2-.8.8 0 6.1-7 8.3-14 8.3-6.4 0-9.3-1.7-9.3-4.5 0-3.2 3.2-4 10.2-4 11.7 0 14.1-3.6 14.1-8.7 0-9-4.8-16.2-20.9-16.2-13.8 0-23.9 6.5-23.9 24.8 0 17.7 11.1 22.8 23.4 22.8 16.1 0 21.9-6.5 21.9-22.4 0-.7-.3-.9-.7-.9zm-24.5-1.9c-.2-1.1-.2-2.9-.2-5 0-11.1 1.2-15.9 4.2-15.9 2.1 0 3.2 1.5 3.2 7.1 0 13.2-3.9 14.9-5.7 14.9-.7.1-1.2-.1-1.5-1.1z"
-                          class="st0" />
-                      <path
-                          d="M359.9 24.5c-1.1 0-2.8.1-3.4.1-1.8 0-2.7-.2-2.7-2.3 0-4.2.2-6.2.2-7.1 0-.5-.3-.8-.8-.8-.4 0-.6.2-1 .6-4.5 5-13.8 9.4-21.7 9.6-.6.1-.8.4-.8.9 0 .4.2.9.8.9.1 0 .7-.2 1.7-.2 1.2 0 2 .9 2.1 2.9.2 4.3.2 8 .2 11.7 0 5.5-.2 12.1-.2 15.8 0 11.1 4.1 13.9 13.2 13.9 9.3 0 11.9-5.3 11.9-17.3 0-4.5-.6-5.5-1.7-5.5-.7 0-1.2.5-1.2 1.4 0 1.9 1.2 4.1 1.2 5.9 0 1.2-.4 2.7-1.7 2.7-1.2 0-1.9-.6-2.2-4.4-.3-6.1-.3-15.5-.2-24.6 0-1.5.5-2.4 2.2-2.4 1.2 0 2.9.2 4.1.2.7 0 .9-.5.9-1 0-.6-.2-1-.9-1z"
-                          class="st0" />
-                  </g>
-                  <g>
-                      <circle cx="164.5" cy="8.6" r="8.6" class="st0" />
-                  </g>
-              </g>
-          </svg>
-      </div>
-  
-  
-      <div id="menu-burger">
-          <svg viewBox="0 0 46 15.6">
-              <style>
-                  .st0 {
-                      fill: #18186b
-                  }
-              </style>
-              <ellipse id="burger-circle-1" cx="37.6" cy="7.8" class="st0" rx="7" ry="8" transform="rotate(-71.549 37.649 7.825)" />
-              <ellipse id="burger-circle-2" cx="8.3" cy="7.8" class="st0" rx="7" ry="8" transform="rotate(-71.549 8.314 7.818)" />
-              <path id="burger-bar" d="M8.3 0h29.3v15.6H8.3z" class="st0" />
-          </svg>
-      </div>
-  
-  
-  
-      <nav id="menu-list">
-          <ul>
-              <li><a href="index.html" class="nav-item01">home</a></li>
-              <li><a href="benefits.html" class="nav-item02">benefits</a></li>
-              <li><a href="care.html" class="nav-item03">care</a></li>
-              <li><a href="adopt.html" class="nav-item04">adopt</a></li>
-          </ul>
-      </nav>
-  </header>
-  
-  <div id="menu-mobile-list">
-      <ul>
-          <li><a href="index.html" class="nav-item01">
-                  <h1>home</h1>
-              </a></li>
-          <li><a href="benefits.html" class="nav-item02">
-                  <h1>benefits</h1>
-              </a></li>
-          <li><a href="care.html" class="nav-item03">
-                  <h1>care</h1>
-              </a></li>
-          <li><a href="adopt.html" class="nav-item04">
-                  <h1>adopt</h1>
-              </a></li>
-      </ul>
-      <div id="menu-mobile-list-background">
-      </div>
-  
-  </div>
-  
-  <main>
-      <section id="adopt-hero">
-          <div>
-              <h1>Bringing home a <span>pig pet</span></h1>
-          </div>
-          <div></div>
-      </section>
-      <section id="adopt-testimonials">
-          <h2>Hear what pig parents say <span>about their pigs</span></h2>
-          <ul>
-              <li>
-                  <h1>“</h1>
-                  <p><span>All you want to do is protect this little pig</span> from anything that will harm them. Sometimes you may go overboard, but nonetheless, it's done because you can’t imagine life without this pig and you can see the two of you growing old together.</p>
-                  <h3>DEBBIE / 47 / LITTLE ROCK, AK</h3>
-              </li>
-              <li>
-                  <h1>“</h1>
-                  <p>
-                      I love my pig dearly, so I overlook some of the undesirable things she may do at times. I knew getting a pig as a pet would come with some issues that I wouldn't necessarily like, but I accepted that as a part of having a pig in my home. I do not regret one minute of it. I know <span>I have made good decisions for my pig and that she will never have to worry about where she will lay her head at night,</span> and ultimately all that matters to me is that my pig is safe.
-                  </p>
-                  <h3>JOHNNY / 32 / AUSTIN, TX</h3>
-              </li>
-              <li>
-                <h1>“</h1>
-                  <p>
-                      There are times when my pig just wants to lay in my lap and be cuddled, and there are days when she does not want this, but I enjoy the days when she does. <span>The times when I take her on walks or to a store are the best.</span> My pig doesn't mind putting on a harness and it is fun to watch the neighborhood kids run out to pet her.
-                  </p>
-                  <h3>SAM / 64 / SCRANTON, PA</h3>
-              </li>
-          </ul>
-      </section>
-      <section id="adopt-expect">
-          <div>
-              <aside></aside>
-          </div>
-          <div>
-              <h2>What to expect when <span>living with a pig</span></h2>
-          </div>
-          <div>
-              <ul>
-                  <li>
-                      <h3>Size of your pig</h3>
-                      <p>Fully-grown pigs weigh between 100 and 150 pounds. Unlike the “teacup pig” myth, the smallest healthy size of a fill-grown pig is around 60 lb.</p>
-                  </li>
-                  <li>
-                      <h3>Other housemates</h3>
-                      <p>If you live with small children or other pets like dogs, a pig may not feel safe and happy in your home.</p>
-                  </li>
-                  <li>
-                      <h3>Zoned for approval</h3>
-                      <p>In the eyes of the law, any size pig is seen as livestock. Make sure your area is zoned before bringing home your pig. </p>
-                  </li>
-                  <li>
-                      <h3>Finding a vet</h3>
-                      <p>Specific vets are needed to care for  your pig, but we’ll help you out.</p>
-                  </li>
-                  <li>
-                      <button type="button" name="button">find a vet</button>
-                  </li>
-              </ul>
-          </div>
-      </section>
-      <section id="adopt-pig-bio">
-          <div>
-            <h1><img src="img/adopt/heart.svg" alt="heart logo">big</h1>
-            <h1>love</h1>
-            <h1>story</h1>
-          </div>
-          <div>
-              <article></article>
-          </div>
-          <div>
-              <article>
-                  <h2>Meet Ziggy.</h2>
-                  <h3>Vietnamese Pot Bellied adult black male</h3>
-                  <p><span>“Dashingly handsome, above-average smarts, with a happy disposition.”</span> If Ziggy could talk, this is how he would describe himself. In all honesty, it's pretty much the truth. Ziggy has the thickest, most beautiful coat of bristles you will ever see. Born February 2014, this stunning fella joined the sancuary in 2016. Found as a stray in northern Arizona, Ziggy is cute as a teddy bear, and confident with other pigs. Ziggy is looking for a home where he can bring one of his Sanctuary pig friends, or to join a family which already includes piggy companions.</p>
-                      <aside>
-                          <button type="button" name="button">adopt ziggy</button>
-                          <button type="button" name="button">sponsor ziggy</button>
-                      </aside>
-              </article>
-          </div>
-      </section>
-      <section id="adopt-oinking">
-          <div>
-              <h2>Adopt your new <span>oinking friend</span></h2>
-              <h3>When you adopt a pig from one of our sanctuaries, we keep adoption fees low and make sure that your pig is healthy, well-socialized, and up-to-date on vaccines.</h3>
-              <img src="" alt="">
-          </div>
-          <div>
-              <button type="button" name="button">find a sanctuary near me</button>
-          </div>
-          <div></div>
+    <section id="adopt-form">
+        <div>
+            <div>
+                <div id="adopt-form-exit">
+                    <h3>X</h3>
+                </div>
+                <div id="adopt-form-video" class="video-back">
 
-          <div>
-              <ul>
-                  <li>
-                      <h2>Size</h2>
-                      <p>If you adopt a full-grown potbellied pig, you'll know exactly what size pig you are getting.</p>
-                  </li>
-                  <li>
-                      <h2>Vaccines</h2>
-                      <p>We keep track of all vaccines that every pig is administered and make sure they are up to date before adoption.</p>
-                  </li>
-                  <li>
-                      <h2>Cost</h2>
-                      <p>Thanks to our donors and sponsorships, we can keep our adoption fees low.</p>
-                  </li>
-              </ul>
-          </div>
-      </section>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLURlLXbHDYqqRybNjldPkxATtQQgDFXQX&autoplay=1&loop=1&start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;mute=1&amp;start=3" allowfullscreen class="vidbacking"></iframe>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/WSRv7dLDh6c?&start=10&controls=0&title=0&portrait=0&autoplay=1&loop=1&" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vidbacking"></iframe> -->
+                </div>
+                <div id="adopt-form-content">
+                    <form method="POST">
 
-  </main>
-  
+                        <div class="adopt-form-content-heading">
+                            <h2>Work with us!</h2>
+                        </div>
+                        <!-- first name -->
+
+                        <div class="adopt-form-content-name">
+                            <div class="adopt-form-content-1">
+                                <label>
+                                    <input type="text" placeholder="First Name" name="First Name">
+                                    <!-- <input type="hidden" name="_next" value="http://axbdesign.com/web2/Final/thankyou.html" /> -->
+                                    <input type="text" name="_gotcha" style="display:none" />
+                                </label>
+                            </div>
+                            <!-- last name -->
+                            <div class="adopt-form-content-2">
+                                <label>
+                                    <input type="text" placeholder="Last Name" name="Last Name">
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- email -->
+                        <div class="adopt-form-content-3">
+                            <label>
+                                <input type="text" placeholder="Email" name="Email">
+                            </label>
+                        </div>
+                        <!-- area code -->
+
+                        <div class="adopt-form-content-4">
+                            <label>
+                                <input type="text" placeholder="Area Code" name="Area Code">
+                            </label>
+                        </div>
+                        <!-- email -->
+                        <div class="adopt-form-content-5">
+                            <label>
+                                <article id="adopt-form-drop-down">
+                                    <p>I want to</p>
+                                    <!-- <select name="adopt option">
+                                        <option value="adopt" selected>Adopt a pig</option>
+                                        <option value="surrender">Surrender a pig</option>
+                                    </select> -->
+                                    <input type="text" placeholder="Select an option" name="adopt option" list="adopt option">
+                                    <datalist id="adopt option">
+                                        <option value="Adopt a pig">
+                                        <option value="Surrender a pig">
+                                    </datalist>
+                                </article>
+                            </label>
+                        </div>
+                        <div class="adopt-form-content-button">
+                            <button type="submit" value="send">Find a pig near you!</button>
+                            <input type="hidden" name="_next" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <div id="header-logo">
+            <svg viewBox="0 0 360.8 78.9">
+                <style>
+                    .st0 {
+                        fill: #18186b
+                    }
+
+                    .st1 {
+                        fill: #fff
+                    }
+                </style>
+                <path d="M82.7 29.4c0 23-41.4 36.8-41.4 36.8S0 52.4 0 29.4 41.4 15.6 41.4 34c0-18.4 41.3-27.6 41.3-4.6z" class="header-heart" />
+                <ellipse cx="52.5" cy="41.6" class="st1" rx="5.8" ry="6.3" transform="rotate(-71.549 52.488 41.59)" />
+                <ellipse cx="30.5" cy="41.4" class="st1" rx="5.8" ry="6.3" transform="rotate(-71.549 30.51 41.4)" />
+                <g>
+                    <path
+                        d="M134.2 13.7c-5.1 0-16 .5-21.5.5-5.6 0-10.4-.2-15.3-.2-.5 0-.9.4-.9 1 0 .5.2.9.9.9.6 0 1.4-.2 2.2-.2 2.1 0 2.2 2.6 2.4 5.2.3 4.9.4 10.5.4 16.2 0 8.2-.2 16.3-.4 22.1-.2 3.9-.6 5.3-2.7 5.3-.3 0-1.4-.2-2-.2-.5 0-.9.4-.9.9 0 .6.2 1 .9 1 2.7 0 10.4-.2 15.9-.2 5.4 0 13.2.2 15.9.2.6 0 .9-.6.9-1 0-.6-.3-1-.9-1-.9 0-2.6.3-3.1.3-2.5 0-3.2-1.6-3.2-5.9 0-3.8.6-4.5 10-6.7 10.6-2.5 18.5-5.2 18.5-21.7-.1-11.4-6.5-16.5-17.1-16.5zM121.6 36c-.9 2.6-3.8 3.9-6.6 3-2.8-.9-4.3-3.8-3.5-6.3.9-2.6 3.8-3.9 6.6-3 2.8.9 4.4 3.7 3.5 6.3zm18.6.2c-.9 2.6-3.8 3.9-6.6 3-2.8-.9-4.3-3.8-3.5-6.3.9-2.6 3.8-3.9 6.6-3 2.8.9 4.4 3.7 3.5 6.3z"
+                        class="st0" />
+                    <path
+                        d="M177.5 64.4h-.2c-.3 0-.7.2-1 .2-1.2 0-1.4-1.2-1.5-5.3-.1-4.7-.1-12.1-.1-14.9 0-7 .6-19.4.6-21 0-1.6-.4-2.2-1.8-2.2-3.2 0-6.3.5-9.5.5-4.7 0-8.4-.5-12.4-.5-.6 0-.8.4-.8.9 0 .4.2.9.8.9.3 0 .8-.1 1.6-.1 1.3 0 1.7.7 1.9 3.8.2 3.6.2 8.1.2 12.3 0 7.6-.2 15.3-.5 22.3-.1 1.8-.2 3.3-1.1 3.3-.5 0-.9-.2-1.3-.2-.6 0-.9.2-.9.8 0 .7.3 1 .9 1 4 0 7.7-.3 12-.3s10.6.3 13 .3h.2c.7 0 .9-.4.9-1-.1-.4-.4-.8-1-.8z"
+                        class="st0" />
+                    <path
+                        d="M215.1 55c-7.7 0-19.8 3.1-24.7 3.1-2.9 0-3.6-.8-3.6-2 0-1.9 2.1-2.8 15.5-2.8 16.6 0 22.9-4.3 22.9-14.8 0-8.9-6.5-13.5-11.7-14.1-.8-.2-1.2-.6-1.2-1.1 0-.4.3-.9 1.1-.9.4 0 2.2.2 4.6.2 4.6 0 7.2-2.9 7.2-7.2 0-5.7-4.6-9.3-12-9.3-6.4 0-9.8 2.7-9.8 6.5 0 4.3 3.6 6.5 9.6 6.6 1.3.1 1.8.7 1.8 1.2 0 .7-.4 1.1-1.5 1.1-3 0-7.4-1.3-14.2-1.3-13.5 0-20.1 5.8-20.1 16.5 0 8.5 4.3 13.7 15.2 13.9.8 0 1.2.4 1.2 1s-.4 1-1.2 1c-2.1 0-4-.1-6.5-.1-6.2 0-10.8 4.1-10.8 12.2v1.9c.4 6.8 3.3 10.8 10.7 10.8 8.4 0 16.1-3.5 24.3-3.5 4.5 0 7.9.5 7.9 2.2 0 .8-.8 1.7-2.8 1.7-2.1 0-4.1-.9-5.7-.9-.8 0-1.1.4-1.1 1 0 1 1.6 1.4 5.9 1.4 7 0 9.9-3.6 9.9-12.8.5-8.1-3.3-11.5-10.9-11.5zm-12.9-33.4c2.6 0 3.4 3.8 3.4 17.7 0 7.5-.8 9.6-3.1 9.6-3.4 0-3.6-5.4-3.6-13.9.1-9.7 1.4-13.4 3.3-13.4z"
+                        class="st0" />
+                    <g>
+                        <path
+                            d="M265.9 17.1c-5.1 0-16 .5-21.5.5s-10.3-.2-15.3-.2c-.5 0-.9.4-.9 1 0 .5.2.9.9.9.6 0 1.4-.2 2.2-.2 2.1 0 2.2 2.6 2.4 5.2.3 4.9.4 10.5.4 16.2 0 8.2-.2 16.3-.4 22.1-.2 3.9-.6 5.3-2.7 5.3-.3 0-1.4-.2-2-.2-.5 0-.9.4-.9.9 0 .6.2 1 .9 1 2.7 0 10.4-.2 15.9-.2 5.4 0 13.2.2 15.9.2.6 0 .9-.6.9-1 0-.6-.3-1-.9-1-.9 0-2.6.3-3.1.3-2.5 0-3.2-1.6-3.2-5.9 0-3.8.6-4.5 10-6.7 10.6-2.5 18.5-5.2 18.5-21.7 0-11.5-6.5-16.5-17.1-16.5zm-9.5 27s-9-3-9-8 9-3 9 1c0-4 9-6 9-1s-9 8-9 8z"
+                            class="st0" />
+                        <path
+                            d="M329.2 47.6c-.4 0-.8.2-.8.8 0 6.1-7 8.3-14 8.3-6.4 0-9.3-1.7-9.3-4.5 0-3.2 3.2-4 10.2-4 11.7 0 14.1-3.6 14.1-8.7 0-9-4.8-16.2-20.9-16.2-13.8 0-23.9 6.5-23.9 24.8 0 17.7 11.1 22.8 23.4 22.8 16.1 0 21.9-6.5 21.9-22.4 0-.7-.3-.9-.7-.9zm-24.5-1.9c-.2-1.1-.2-2.9-.2-5 0-11.1 1.2-15.9 4.2-15.9 2.1 0 3.2 1.5 3.2 7.1 0 13.2-3.9 14.9-5.7 14.9-.7.1-1.2-.1-1.5-1.1z"
+                            class="st0" />
+                        <path
+                            d="M359.9 24.5c-1.1 0-2.8.1-3.4.1-1.8 0-2.7-.2-2.7-2.3 0-4.2.2-6.2.2-7.1 0-.5-.3-.8-.8-.8-.4 0-.6.2-1 .6-4.5 5-13.8 9.4-21.7 9.6-.6.1-.8.4-.8.9 0 .4.2.9.8.9.1 0 .7-.2 1.7-.2 1.2 0 2 .9 2.1 2.9.2 4.3.2 8 .2 11.7 0 5.5-.2 12.1-.2 15.8 0 11.1 4.1 13.9 13.2 13.9 9.3 0 11.9-5.3 11.9-17.3 0-4.5-.6-5.5-1.7-5.5-.7 0-1.2.5-1.2 1.4 0 1.9 1.2 4.1 1.2 5.9 0 1.2-.4 2.7-1.7 2.7-1.2 0-1.9-.6-2.2-4.4-.3-6.1-.3-15.5-.2-24.6 0-1.5.5-2.4 2.2-2.4 1.2 0 2.9.2 4.1.2.7 0 .9-.5.9-1 0-.6-.2-1-.9-1z"
+                            class="st0" />
+                    </g>
+                    <g>
+                        <circle cx="164.5" cy="8.6" r="8.6" class="st0" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+
+        <div id="menu-burger">
+            <svg viewBox="0 0 46 15.6">
+                <style>
+                    .st0 {
+                        fill: #18186b
+                    }
+                </style>
+                <ellipse id="burger-circle-1" cx="37.6" cy="7.8" class="st0" rx="7" ry="8" transform="rotate(-71.549 37.649 7.825)" />
+                <ellipse id="burger-circle-2" cx="8.3" cy="7.8" class="st0" rx="7" ry="8" transform="rotate(-71.549 8.314 7.818)" />
+                <path id="burger-bar" d="M8.3 0h29.3v15.6H8.3z" class="st0" />
+            </svg>
+        </div>
+
+
+
+        <nav id="menu-list">
+            <ul>
+                <li><a href="index.html" class="nav-item01">home</a></li>
+                <li><a href="benefits.html" class="nav-item02">benefits</a></li>
+                <li><a href="care.html" class="nav-item03">care</a></li>
+                <li><a href="adopt.html" class="nav-item04">adopt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu-mobile-list">
+        <ul>
+            <li><a href="index.html" class="nav-item01">
+                    <h1>home</h1>
+                </a></li>
+            <li><a href="benefits.html" class="nav-item02">
+                    <h1>benefits</h1>
+                </a></li>
+            <li><a href="care.html" class="nav-item03">
+                    <h1>care</h1>
+                </a></li>
+            <li><a href="adopt.html" class="nav-item04">
+                    <h1>adopt</h1>
+                </a></li>
+        </ul>
+        <div id="menu-mobile-list-background">
+        </div>
+
+    </div>
+
+    <main>
+        <section id="adopt-hero">
+            <div>
+                <h2>Bringing home a <span>pig pet</span></h2>
+            </div>
+            <div></div>
+        </section>
+        <section id="adopt-testimonials">
+            <h2>Hear what pig parents say <span>about their pigs</span></h2>
+            <ul>
+                <li>
+                    <h1>“</h1>
+                    <p><span>All you want to do is protect this little pig</span> from anything that will harm them. Sometimes you may go overboard, but nonetheless, it's done because you can’t imagine life without this pig and you can see the two of
+                        you growing old together.</p>
+                    <h3>DEBBIE / 47 / LITTLE ROCK, AK</h3>
+                </li>
+                <li>
+                    <h1>“</h1>
+                    <p>
+                        I love my pig dearly, so I overlook some of the undesirable things she may do at times. I knew getting a pig as a pet would come with some issues that I wouldn't necessarily like, but I accepted that as a part of having a pig
+                        in my home. I do not regret one minute of it. I know <span>I have made good decisions for my pig and that she will never have to worry about where she will lay her head at night,</span> and ultimately all that matters to me is
+                        that my pig is safe.
+                    </p>
+                    <h3>JOHNNY / 32 / AUSTIN, TX</h3>
+                </li>
+                <li>
+                    <h1>“</h1>
+                    <p>
+                        There are times when my pig just wants to lay in my lap and be cuddled, and there are days when she does not want this, but I enjoy the days when she does. <span>The times when I take her on walks or to a store are the
+                            best.</span> My pig doesn't mind putting on a harness and it is fun to watch the neighborhood kids run out to pet her.
+                    </p>
+                    <h3>SAM / 64 / SCRANTON, PA</h3>
+                </li>
+            </ul>
+        </section>
+        <section id="adopt-expect">
+            <div>
+                <aside></aside>
+            </div>
+            <div>
+                <h2>What to expect when <span>living with a pig</span></h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Size of your pig</h3>
+                        <p>Fully-grown pigs weigh between 100 and 150 pounds. Unlike the “teacup pig” myth, the smallest healthy size of a fill-grown pig is around 60 lb.</p>
+                    </li>
+                    <li>
+                        <h3>Other housemates</h3>
+                        <p>If you live with small children or other pets like dogs, a pig may not feel safe and happy in your home.</p>
+                    </li>
+                    <li>
+                        <h3>Zoned for approval</h3>
+                        <p>In the eyes of the law, any size pig is seen as livestock. Make sure your area is zoned before bringing home your pig. </p>
+                    </li>
+                    <li>
+                        <h3>Finding a vet</h3>
+                        <p>Specific vets are needed to care for your pig, but we’ll help you out.</p>
+                    </li>
+                    <li>
+                        <button type="button" name="button">find a vet</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="adopt-pig-bio">
+            <div>
+                <h1><img src="img/adopt/heart.svg" alt="heart logo">big</h1>
+                <h1>love</h1>
+                <h1>story</h1>
+            </div>
+            <div>
+                <article></article>
+            </div>
+            <div>
+                <article>
+                    <h2>Meet Ziggy.</h2>
+                    <h3>Vietnamese Pot Bellied adult black male</h3>
+                    <p><span>“Dashingly handsome, above-average smarts, with a happy disposition.”</span> If Ziggy could talk, this is how he would describe himself. In all honesty, it's pretty much the truth. Ziggy has the thickest, most beautiful
+                        coat of bristles you will ever see. Born February 2014, this stunning fella joined the sancuary in 2016. Found as a stray in northern Arizona, Ziggy is cute as a teddy bear, and confident with other pigs. Ziggy is looking for
+                        a home where he can bring one of his Sanctuary pig friends, or to join a family which already includes piggy companions.</p>
+                    <aside>
+                        <button type="button" name="button">adopt ziggy</button>
+                        <button type="button" name="button">sponsor ziggy</button>
+                    </aside>
+                </article>
+            </div>
+        </section>
+        <section id="adopt-oinking">
+            <div>
+                <h2>Adopt your new <span>oinking friend</span></h2>
+                <h3>When you adopt a pig from one of our sanctuaries, we keep adoption fees low and make sure that your pig is healthy, well-socialized, and up-to-date on vaccines.</h3>
+                <img src="" alt="">
+            </div>
+            <div>
+                <button id="adopt-form-trigger" type="button" name="button">find a sanctuary near me</button>
+            </div>
+            <div></div>
+
+            <div>
+                <ul>
+                    <li>
+                        <h2>Size</h2>
+                        <p>If you adopt a full-grown potbellied pig, you'll know exactly what size pig you are getting.</p>
+                    </li>
+                    <li>
+                        <h2>Vaccines</h2>
+                        <p>We keep track of all vaccines that every pig is administered and make sure they are up to date before adoption.</p>
+                    </li>
+                    <li>
+                        <h2>Cost</h2>
+                        <p>Thanks to our donors and sponsorships, we can keep our adoption fees low.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
